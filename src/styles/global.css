@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /*black-shades*/
+  --black-000: #f3f3f3;
+  --black-100: #e0e0e0;
+  --black-200: #c0c0c0;
+  --black-300: #a1a1a1;
+  --black-400: #818181;
+  --black-500: #616161;
+  --black-600: #414141;
+  --black-inverted: white;
+  /*pink-shades*/
+  --pink-100: #fac1d6;
+  --pink-200: #f584ad;
+  --pink-300: #f04684;
+  --pink-400: #e1125e;
+  --pink-500: #a90e46;
+  --pink-600: #70092f;
+  /*red-shades*/
+  --red-100: #fcd0cf;
+  --red-200: #faa09e;
+  --red-300: #f7716e;
+  --red-400: #f5413d;
+  --red-500: #da100b;
+  --red-600: #910b08;
+  /*orange-shades*/
+  --orange-100: #fbe5c9;
+  --orange-200: #f6ca92;
+  --orange-300: #f2b05c;
+  --orange-400: #ed9526;
+  --orange-500: #bf710f;
+  --orange-600: #7f4c0a;
+  /*yellow-shades*/
+  --yellow-100: #fbf3d0;
+  --yellow-200: #f7e7a1;
+  --yellow-300: #f4db71;
+  --yellow-400: #f0d042;
+  --yellow-500: #d4b011;
+  --yellow-600: #8e750b;
+  /*green-shades*/
+  --green-100: #c5f2c7;
+  --green-200: #8ce590;
+  --green-300: #52d858;
+  --green-400: #2ab930;
+  --green-500: #1f8b24;
+  --green-600: #155d18;
+  /*teal-shades*/
+  --teal-100: #abfbf2;
+  --teal-200: #4ef6e5;
+  --teal-300: #0cdac6;
+  --teal-400: #009e8e;
+  --teal-500: #00776a;
+  --teal-600: #004f47;
+  /*blue-shades*/
+  --blue-100: #c5dcfa;
+  --blue-200: #8ab9f6;
+  --blue-300: #5096f1;
+  --blue-400: #5096f1;
+  --blue-500: #0f56b3;
+  --blue-600: #0a3977;
+  /*indigo-shades*/
+  --indigo-100: #c7cdf1;
+  --indigo-200: #8e9ae3;
+  --indigo-300: #5668d5;
+  --indigo-400: #2e41b6;
+  --indigo-500: #223189;
+  --indigo-600: #17205b;
+  /*purple-shades*/
+  --purple-000: #ecb9f9;
+  --purple-000: #d972f4;
+  --purple-000: #c52cee;
+  --purple-000: #9a0fbf;
+  --purple-000: #730c8f;
+  --purple-000: #4d085f;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
