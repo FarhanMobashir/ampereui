@@ -1,8 +1,71 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "./src/styles/global.css";
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.6rem;
+}
+
+#nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 2.4rem;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  font-weight: 550;
+  color: var(--black-600);
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 5rem 1rem;
+}
+
+.hero-heading {
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-size: 3.2rem;
+  margin: 1rem;
+  color: var(--black-600);
+}
+
+.hero-subheading {
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--black-400);
+}
+
+.hero-button-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  padding: 1rem 1.6rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 550;
+}
+
+.btn-primary {
+  background-color: var(--purple-400);
+  color: var(--black-000);
 }
