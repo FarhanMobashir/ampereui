@@ -1,4 +1,6 @@
 @import "./src/styles/global.css";
+@import "../src/styles/typography.css";
+@import "../src/styles/spacing.css";
 
 #header {
   display: flex;
@@ -68,4 +70,10 @@
 .btn-primary {
   background-color: var(--purple-400);
   color: var(--black-000);
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 55%;
+  }
 }

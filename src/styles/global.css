@@ -95,6 +95,11 @@ body {
   font-family: var(--primary-font);
 }
 
+.h1,
+h1 {
+  font-size: var(--text-xxl);
+}
+
 h1,
 h2,
 h3,

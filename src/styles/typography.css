@@ -1,0 +1,69 @@
+/* ? sizes */
+.tx-12 {
+  font-size: 1.2rem;
+}
+.tx-14 {
+  font-size: 1.4rem;
+}
+.tx-16 {
+  font-size: 1.6rem;
+}
+.tx-18 {
+  font-size: 1.8rem;
+}
+.tx-20 {
+  font-size: 2rem;
+}
+.tx-24 {
+  font-size: 2.4rem;
+}
+
+.tx-28 {
+  font-size: 2.8rem;
+}
+
+.tx-32 {
+  font-size: 3.2rem;
+}
+
+.tx-40 {
+  font-size: 4rem;
+}
+
+/* ? weight */
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.medium {
+  font-weight: 600;
+}
+
+.semi-bold {
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.black {
+  font-weight: 900;
+}
+
+/* alignments */
+.tx-center {
+  text-align: center;
+}
+
+.tx-left {
+  text-align: left;
+}
+
+.tx-right {
+  text-align: right;
+}

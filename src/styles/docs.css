@@ -1,5 +1,6 @@
-@import "../styles/global.css";
-@import "../components/buttons.css";
+@import "./global.css";
+@import "./spacing.css";
+@import "./typography.css";
 
 body {
   margin: 0;
@@ -171,6 +172,9 @@ body {
 }
 
 @media (max-width: 40rem) {
+  html {
+    font-size: 55%;
+  }
   #grid-container {
     grid-template-areas:
       "header header header header header header header header  header header header header"
@@ -180,6 +184,7 @@ body {
 
   .sidebar {
     display: none;
+    margin: 0;
   }
 
   .menu-icon {
