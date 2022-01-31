@@ -9,8 +9,6 @@ const drawerLink = document.querySelectorAll(".component-link-drawer");
 
 menuIcon.addEventListener("click", function () {
   drawer.classList.toggle("drawer-show");
-  // menuIcon.classList.toggle("uil-bars");
-  // menuIcon.classList.toggle("uil-times");
 });
 
 drawerIcon.addEventListener("click", function () {
@@ -19,7 +17,6 @@ drawerIcon.addEventListener("click", function () {
 
 drawerLink.forEach((linkItem) =>
   linkItem.addEventListener("click", function () {
-    drawer.classList.remove("drawer-show");
-    // linkItem.classList.add("link-active");
+    drawer.classList.toggle("drawer-show");
   })
 );
