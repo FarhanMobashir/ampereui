@@ -57,9 +57,17 @@
   --blue-100: #c5dcfa;
   --blue-200: #8ab9f6;
   --blue-300: #5096f1;
-  --blue-400: #5096f1;
+  --blue-400: #2d7ee9;
   --blue-500: #0f56b3;
   --blue-600: #0a3977;
+  /* primary-shades */
+  --primary-100: #c5dcfa;
+  --primary-200: #8ab9f6;
+  --primary-300: #5096f1;
+  --primary-400: #2d7ee9;
+  --primary-500: #0f56b3;
+  --primary-600: #0a3977;
+
   /*indigo-shades*/
   --indigo-100: #c7cdf1;
   --indigo-200: #8e9ae3;
