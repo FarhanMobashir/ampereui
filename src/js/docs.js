@@ -1,7 +1,3 @@
-import "../styles/docs.css";
-import "../styles/global.css";
-import "../components/buttons.css";
-
 const menuIcon = document.querySelector(".menu-icon");
 const drawer = document.querySelector(".drawer");
 const drawerIcon = document.querySelector(".drawer-icon");

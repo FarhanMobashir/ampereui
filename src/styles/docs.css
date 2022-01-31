@@ -1,3 +1,6 @@
+@import "../styles/global.css";
+@import "../components/buttons.css";
+
 body {
   margin: 0;
   overflow: hidden;
@@ -121,6 +124,7 @@ body {
   right: 0;
   width: 100vw;
   height: 100vh;
+  transition: 1s;
 }
 
 .drawer-head {
