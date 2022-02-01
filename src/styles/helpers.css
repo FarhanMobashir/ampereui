@@ -1,0 +1,18 @@
+@import "./global.css";
+.outline-container {
+  border: 1px solid var(--black-100);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px var(--black-100);
+}
+
+.outline-flex-container-baseline {
+  border: 1px solid var(--black-100);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px var(--black-100);
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

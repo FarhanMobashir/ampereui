@@ -2,6 +2,8 @@
 @import "./spacing.css";
 @import "./typography.css";
 @import "./colors.css";
+@import "../components/avatars.css";
+@import "./helpers.css";
 
 body {
   margin: 0;
@@ -179,8 +181,8 @@ body {
   #grid-container {
     grid-template-areas:
       "header header header header header header header header  header header header header"
-      "sidebar main main main main main main main main main main main"
-      "sidebar main main main main main main main main main main main";
+      "main main main main main main main main main main main main"
+      "main main main main main main main main main main main main";
   }
 
   .sidebar {
@@ -189,7 +191,8 @@ body {
   }
 
   #main {
-    padding: 0;
+    margin: 0.5rem;
+    padding-bottom: 6rem;
   }
 
   .menu-icon {
