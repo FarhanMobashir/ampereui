@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/styles/docs.css" />
+    <link rel="stylesheet" href="../styles/components.css" />
     <title>Docs | AmpereUI</title>
   </head>
   <body>
     <div class="drawer">
       <div class="drawer-head">
         <i class="drawer-icon uil uil-times"></i>
-        <a href="./index.html">
-          <img src="./src/assets/ampereLogo.svg" alt="" />
+        <a href="../../index.html">
+          <img src="../assets/ampereLogo.svg" alt="" />
         </a>
       </div>
       <div class="component-list">
@@ -24,16 +24,6 @@
         <a href="#" class="component-link-drawer">Cards</a>
         <a href="#" class="component-link-drawer">Images</a>
         <a href="#" class="component-link-drawer">Input</a>
-        <!-- ? <h1>Good to have</h1> -->
-        <!-- <a href="#" class="component-link-drawer">Text Utilities</a>
-        <a href="#" class="component-link-drawer">Lists</a>
-        <a href="#" class="component-link-drawer">Modal</a>
-        <a href="#" class="component-link-drawer">Rating</a>
-        <a href="#" class="component-link-drawer">Toast/Snackbar</a>
-        <a href="#" class="component-link-drawer">Simplified Grid</a> -->
-        <!-- ? <h1>Can Contain</h1> -->
-        <!-- <a href="#" class="component-link-drawer">Navigation</a>
-        <a href="#" class="component-link-drawer">Slider</a> -->
       </div>
     </div>
     <div id="grid-container">
@@ -41,11 +31,15 @@
         <div id="logo">
           <i class="menu-icon uil uil-bars"></i>
 
-          <a href="./index.html">
-            <img src="./src/assets/ampereLogo.svg" alt="" />
+          <a href="../../index.html">
+            <img src="../assets/ampereLogo.svg" alt="" />
           </a>
         </div>
         <div id="nav-links">
+          <a class="link nav-link" href="#">Docs</a>
+          <a class="link nav-link" href="./src/pages/components.html"
+            >Components</a
+          >
           <a class="link nav-link" href="#"
             ><i class="icon uil uil-github-alt"></i
           ></a>
@@ -60,24 +54,39 @@
         <a href="#" class="component-link">Cards</a>
         <a href="#" class="component-link">Images</a>
         <a href="#" class="component-link">Input</a>
-        <!-- <h1>Good to have</h1> -->
-        <!-- <a href="#" class="component-link">Text Utilities</a>
-        <a href="#" class="component-link">Lists</a>
-        <a href="#" class="component-link">Modal</a>
-        <a href="#" class="component-link">Rating</a>
-        <a href="#" class="component-link">Toast/Snackbar</a>
-        <a href="#" class="component-link">Simplified Grid</a> -->
-        <!-- <h1>Can Contain</h1> -->
-        <!-- <a href="#" class="component-link">Navigation</a>
-        <a href="#" class="component-link">Slider</a> -->
       </div>
 
-      <div id="main">
-        <div id="alert">
-          <h1 class="tx-28 semi-bold">Alerts</h1>
-          <p class="tx-20">Here are the examples of alert component</p>
+      <main id="main">
+        <div id="avatars">
+          <h1 class="tx-28 semi-bold">Avatars</h1>
+          <p class="tx-20">Here are the examples of avatars component</p>
+          <h2 class="tx-16 medium pv-20">Basic Avatars</h2>
+          <div class="outline-flex-container-baseline">
+            <img
+              role="img"
+              alt="profile-image"
+              aria-label="profile-image"
+              src="https://i.ibb.co/52ns5nT/prof.jpg"
+              class="avatar avatar-md"
+            />
+            <img
+              role="img"
+              alt="profile-image"
+              aria-label="profile-image"
+              src="https://i.ibb.co/52ns5nT/prof.jpg"
+              class="avatar"
+            />
+            <img
+              role="img"
+              alt="profile-image"
+              aria-label="profile-image"
+              src="https://i.ibb.co/52ns5nT/prof.jpg"
+              class="avatar avatar-sm"
+            />
+          </div>
         </div>
+      </main>
     </div>
-    <script type="module" src="./src/js/docs.js"></script>
+    <script type="module" src="../js/components.js"></script>
   </body>
 </html>

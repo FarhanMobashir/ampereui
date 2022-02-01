@@ -1,0 +1,49 @@
+.avatar {
+  /* --bg-image: url("https://picsum.photos/1000");
+  background-image: var(--bg-image); */
+  width: 80px;
+  height: 80px;
+  grid-column: 1/5;
+  grid-row: 1/5;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0px 0px 5px grey;
+  background-size: contain;
+  margin: 1rem;
+}
+
+.avatar-md {
+  width: 100px;
+  height: 100px;
+}
+
+.avatar-sm {
+  width: 60px;
+  height: 60px;
+}
+
+/* avatar-with-badges */
+
+.avatar-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1rem);
+  grid-template-rows: repeat(6, 1rem);
+  width: 90px;
+  height: 90px;
+}
+
+.avatar-status {
+  grid-column: 7;
+  grid-row: 7;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 3rem;
+  border: 5px solid white;
+  background-color: grey;
+}
+
+.avatar-status-md {
+  width: 30px;
+  height: 30px;
+}

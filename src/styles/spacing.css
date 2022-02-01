@@ -419,27 +419,27 @@
 /* padding-vertical */
 
 .pv-4 {
-  padding-right: 0.4rem 0;
+  padding: 0.4rem 0;
 }
 
 .pv-8 {
-  padding-right: 0.8rem 0;
+  padding: 0.8rem 0;
 }
 
 .pv-10 {
-  padding-right: 1rem 0;
+  padding: 1rem 0;
 }
 
 .pv-16 {
-  padding-right: 1.6rem 0;
+  padding: 1.6rem 0;
 }
 
 .pv-20 {
-  padding-right: 2rem 0;
+  padding: 2rem 0;
 }
 
 .pv-24 {
-  padding-right: 2.4rem 0;
+  padding: 2.4rem 0;
 }
 
 /* gap */
