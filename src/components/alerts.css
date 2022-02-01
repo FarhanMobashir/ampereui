@@ -1,0 +1,61 @@
+.alert {
+  width: 100%;
+  background-color: var(--black-100);
+  color: var(--black-500);
+  padding: var(--sp-md) var(--sp-lg);
+  font-size: var(--tx-20);
+  font-weight: var(--tx-medium);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-smooth);
+  margin: var(--sp-lg) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert-sm {
+  font-size: var(--tx-16);
+  padding: var(--sp-sm) var(--sp-md);
+}
+
+.alert-primary {
+  background-color: var(--primary-100);
+  color: var(--primary-500);
+}
+
+.alert-success {
+  background-color: var(--green-100);
+  color: var(--green-500);
+}
+
+.alert-warning {
+  background-color: var(--red-100);
+  color: var(--red-500);
+}
+
+.alert-info {
+  background-color: var(--orange-100);
+  color: var(--orange-500);
+}
+
+.alert-icon {
+  font-size: var(--tx-24);
+  color: inherit;
+}
+
+.alert-text {
+  padding: var(--sp-sm);
+}
+
+.alert-action:hover {
+  background-color: var(--black-100);
+  color: var(--black-400);
+}
+
+/* usage */
+/*  
+<div class="alert alert-primary alert-sm">
+    This is a small primary alert
+  <i class="alert-icon uil uil-check"></i>
+ </div>  
+ */

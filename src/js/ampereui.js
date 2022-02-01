@@ -1,4 +1,4 @@
-// *   js for alerts
+// * -----   js for alerts ----- //
 
 const alertDismiss = document.querySelectorAll(".alert-action");
 
