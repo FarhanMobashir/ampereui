@@ -114,7 +114,7 @@
   --sp-xl: 2.4rem;
   --sp-xxl: 3.2rem;
   /* box-shadow */
-  --shadow-smooth: 0px 0px 5px #a1a1a1;
+  --shadow-smooth: 0px 0px 2px #a1a1a1;
 }
 
 html {

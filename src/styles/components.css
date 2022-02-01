@@ -5,6 +5,8 @@
 @import "../components/avatars.css";
 @import "./helpers.css";
 
+@import "../../text.css";
+
 body {
   margin: 0;
   overflow: hidden;
