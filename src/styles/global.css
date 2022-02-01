@@ -84,6 +84,37 @@
   --purple-600: #4d085f;
   /* typography */
   --primary-font: "Open Sans", sans-serif;
+  /* font-weights */
+  --tx-light: 300;
+  --tx-normal: 400;
+  --tx-medium: 600;
+  --tx-semi-bold: 700;
+  --tx-bold: 800;
+  --tx-black: 900;
+  /* font-sizes */
+  --tx-12: 1.2rem;
+  --tx-14: 1.4rem;
+  --tx-16: 1.6rem;
+  --tx-20: 2rem;
+  --tx-24: 2.4rem;
+  --tx-28: 2.8rem;
+  --tx-32: 3.2rem;
+  --tx-40: 4rem;
+  /* border-radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5;
+  --radius-xl: 2rem;
+  --radius-round: 50%;
+  /* spacing-scale */
+  --sp-xs: 0.4rem;
+  --sp-sm: 0.8rem;
+  --sp-md: 1.6rem;
+  --sp-lg: 2rem;
+  --sp-xl: 2.4rem;
+  --sp-xxl: 3.2rem;
+  /* box-shadow */
+  --shadow-smooth: 0px 0px 5px #a1a1a1;
 }
 
 html {

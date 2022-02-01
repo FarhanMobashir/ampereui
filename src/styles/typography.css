@@ -1,58 +1,58 @@
 /* ? sizes */
 .tx-12 {
-  font-size: 1.2rem;
+  font-size: var(--tx-12);
 }
 .tx-14 {
-  font-size: 1.4rem;
+  font-size: var(--tx-14);
 }
 .tx-16 {
-  font-size: 1.6rem;
+  font-size: var(--tx-16);
 }
 .tx-18 {
-  font-size: 1.8rem;
+  font-size: var(--tx-18);
 }
 .tx-20 {
-  font-size: 2rem;
+  font-size: var(--tx-20);
 }
 .tx-24 {
-  font-size: 2.4rem;
+  font-size: var(--tx-24);
 }
 
 .tx-28 {
-  font-size: 2.8rem;
+  font-size: var(--tx-28);
 }
 
 .tx-32 {
-  font-size: 3.2rem;
+  font-size: var(--tx-32);
 }
 
 .tx-40 {
-  font-size: 4rem;
+  font-size: var(--tx-40);
 }
 
 /* ? weight */
 .light {
-  font-weight: 300;
+  font-weight: var(--tx-light);
 }
 
 .regular {
-  font-weight: normal;
+  font-weight: var(--tx-normal);
 }
 
 .medium {
-  font-weight: 600;
+  font-weight: var(--tx-medium);
 }
 
 .semi-bold {
-  font-weight: 700;
+  font-weight: var(--tx-semi-bold);
 }
 
 .bold {
-  font-weight: 800;
+  font-weight: var(--tx-bold);
 }
 
 .black {
-  font-weight: 900;
+  font-weight: var(--tx-black);
 }
 
 /* alignments */
@@ -67,3 +67,5 @@
 .tx-right {
   text-align: right;
 }
+
+/* will add more typography helper classes here */
