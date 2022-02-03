@@ -1,0 +1,131 @@
+/* buttons */
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  background-color: var(--black-300);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: var(--shadow-smooth);
+  cursor: pointer;
+}
+
+.btn i {
+  font-size: inherit;
+}
+
+.btn:disabled {
+  background-color: var(--black-100);
+  color: var(--black-300);
+  cursor: not-allowed;
+}
+
+.btn:disabled:hover {
+  background-color: var(--black-100);
+  color: var(--black-300);
+  cursor: not-allowed;
+}
+
+.btn-lg {
+  font-size: 20px;
+  padding: 15px 30px;
+}
+
+.btn-sm {
+  font-size: 12px;
+  padding: 8px 16px;
+}
+
+.btn-primary {
+  background-color: var(--primary-400);
+  color: white;
+}
+.btn-primary:hover {
+  background-color: var(--primary-500);
+  transition: calc(var(--transition-fast) * 1s);
+  color: white;
+}
+
+.btn-outline {
+  background-color: var(--black-inverted);
+  border: 1px solid var(--primary-500);
+  color: var(--primary-500);
+}
+.btn-outline:hover {
+  border: none;
+  background-color: var(--primary-400);
+  transition: calc(var(--transition-fast) * 1s);
+  color: white;
+}
+
+.btn-tertiary {
+  background-color: var(--black-inverted);
+  border: 1px solid var(--black-400);
+  color: var(--black-400);
+}
+.btn-tertiary:hover {
+  border: 1px solid var(--black-500);
+  color: var(--black-500);
+  transition: calc(var(--transition-fast) * 1s);
+}
+
+.btn-text {
+  background-color: var(--black-inverted);
+  border: none;
+  color: var(--primary-500);
+  box-shadow: none;
+}
+.btn-text:hover {
+  background-color: var(--primary-000);
+}
+
+.btn-icon {
+  font-size: var(--tx-32);
+  background-color: var(--black-100);
+  border-radius: var(--radius-sm);
+  color: var(--black-400);
+  box-shadow: 0px 0px 5px var(--black-200);
+  cursor: pointer;
+}
+
+.btn-icon-disabled {
+  cursor: not-allowed;
+}
+
+.btn-icon:hover {
+  background-color: var(--black-200);
+  color: var(--black-500);
+  /* box-shadow: 0px 0px 5px var(--black-200); */
+}
+
+.btn-icon-active {
+  background-color: var(--black-200);
+  color: var(--black-600);
+}
+
+.btn-icon-active:hover {
+  background-color: var(--black-200);
+  color: var(--black-600);
+}
+
+.fab {
+  width: 8rem;
+  height: 8rem;
+  border: none;
+  border-radius: var(--radius-round);
+  background-color: var(--primary-400);
+  color: var(--black-inverted);
+  padding: var(--sp-xl);
+  font-size: var(--tx-40);
+  box-shadow: 0px 0px 10px var(--black-300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
