@@ -1,0 +1,75 @@
+.badge-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.badge-icon {
+  font-size: var(--tx-40);
+  grid-column: 1/-1;
+  color: var(--black-500);
+}
+
+.badge {
+  background-color: var(--red-500);
+  color: var(--red-100);
+  width: 24px;
+  height: 24px;
+  border-radius: var(--radius-round);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--tx-16);
+  font-weight: var(--tx-semi-bold);
+  grid-column: 5;
+}
+
+.active {
+  background-color: var(--green-400);
+}
+
+.offline {
+  background-color: var(--black-400);
+}
+
+/* profile with badges */
+
+.avatar-badge-container {
+  display: grid;
+  height: auto;
+  width: auto;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  cursor: pointer;
+}
+
+.with-badge {
+  grid-column: 1/7;
+  grid-row: 1/-1;
+}
+
+.avatar-badge {
+  grid-column: 5/7;
+  grid-row: 5/-1;
+  border: 7px solid var(--black-inverted);
+}
+
+.avatar-badge-md {
+  border: 7px solid var(--black-inverted);
+  width: 30px;
+  height: 30px;
+}
+
+.avatar-badge-lg {
+  width: 36px;
+  height: 36px;
+}
+
+.avatar-badge-sm {
+  border: 7px solid var(--black-inverted);
+  width: 20px;
+  height: 20px;
+}
