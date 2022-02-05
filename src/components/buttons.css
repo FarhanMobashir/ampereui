@@ -8,11 +8,11 @@
   text-decoration: none;
   background-color: var(--black-300);
   color: white;
-  padding: 10px 20px;
+  padding: var(--sp-sm) var(--sp-md);
   border: none;
   border-radius: 5px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: var(--tx-16);
   box-shadow: var(--shadow-smooth);
   cursor: pointer;
 }
@@ -128,4 +128,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
