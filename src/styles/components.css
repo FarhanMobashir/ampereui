@@ -81,22 +81,17 @@ body {
   font-size: 1.6rem;
   margin: 0.2rem;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 5px;
   /* border-bottom: 1px solid var(--black-100); */
   padding: 1rem;
 }
 
 .component-link:hover {
-  color: var(--purple-600);
-  text-decoration: underline;
-  transition: 0.3s;
-}
-
-.component-link:hover {
-  background-color: var(--black-000);
-  color: var(--black-600);
+  background-color: var(--primary-100);
+  color: var(--primary-600);
   text-decoration: none;
-  border-radius: 10px;
+  font-weight: var(--tx-medium);
+  transition: 0.4s;
 }
 
 #main {
