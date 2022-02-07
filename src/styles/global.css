@@ -98,6 +98,7 @@
   --tx-12: 1.2rem;
   --tx-14: 1.4rem;
   --tx-16: 1.6rem;
+  --tx-18: 1.6rem;
   --tx-20: 2rem;
   --tx-24: 2.4rem;
   --tx-28: 2.8rem;
@@ -135,18 +136,4 @@ html {
 
 body {
   font-family: var(--primary-font);
-}
-
-.h1,
-h1 {
-  font-size: var(--text-xxl);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
 }

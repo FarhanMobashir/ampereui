@@ -1,3 +1,25 @@
+/* headings */
+.h6 {
+  font-size: var(--tx-18);
+}
+.h5 {
+  font-size: var(--tx-20);
+}
+.h4 {
+  font-size: var(--tx-24);
+}
+
+.h3 {
+  font-size: var(--tx-28);
+}
+
+.h2 {
+  font-size: var(--tx-32);
+}
+
+.h1 {
+  font-size: var(--tx-40);
+}
 /* ? sizes */
 .tx-12 {
   font-size: var(--tx-12);
@@ -68,4 +90,19 @@
   text-align: right;
 }
 
-/* will add more typography helper classes here */
+/* text-styles */
+.tx-capitalize {
+  text-transform: capitalize;
+}
+
+.tx-lowercase {
+  text-transform: lowercase;
+}
+
+.tx-strike {
+  text-decoration: line-through;
+}
+
+.tx-underline {
+  text-decoration: underline;
+}
