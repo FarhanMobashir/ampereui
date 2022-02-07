@@ -1,0 +1,108 @@
+/* headings */
+.h6 {
+  font-size: var(--tx-18);
+}
+.h5 {
+  font-size: var(--tx-20);
+}
+.h4 {
+  font-size: var(--tx-24);
+}
+
+.h3 {
+  font-size: var(--tx-28);
+}
+
+.h2 {
+  font-size: var(--tx-32);
+}
+
+.h1 {
+  font-size: var(--tx-40);
+}
+/* ? sizes */
+.tx-12 {
+  font-size: var(--tx-12);
+}
+.tx-14 {
+  font-size: var(--tx-14);
+}
+.tx-16 {
+  font-size: var(--tx-16);
+}
+.tx-18 {
+  font-size: var(--tx-18);
+}
+.tx-20 {
+  font-size: var(--tx-20);
+}
+.tx-24 {
+  font-size: var(--tx-24);
+}
+
+.tx-28 {
+  font-size: var(--tx-28);
+}
+
+.tx-32 {
+  font-size: var(--tx-32);
+}
+
+.tx-40 {
+  font-size: var(--tx-40);
+}
+
+/* ? weight */
+.light {
+  font-weight: var(--tx-light);
+}
+
+.regular {
+  font-weight: var(--tx-normal);
+}
+
+.medium {
+  font-weight: var(--tx-medium);
+}
+
+.semi-bold {
+  font-weight: var(--tx-semi-bold);
+}
+
+.bold {
+  font-weight: var(--tx-bold);
+}
+
+.black {
+  font-weight: var(--tx-black);
+}
+
+/* alignments */
+.tx-center {
+  text-align: center;
+}
+
+.tx-left {
+  text-align: left;
+}
+
+.tx-right {
+  text-align: right;
+}
+
+/* text-styles */
+.tx-capitalize {
+  text-transform: capitalize;
+}
+
+.tx-lowercase {
+  text-transform: lowercase;
+}
+
+.tx-strike {
+  text-decoration: line-through;
+}
+
+.tx-underline {
+  text-decoration: underline;
+}
