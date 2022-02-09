@@ -47,10 +47,10 @@
   padding: var(--sp-sm);
 }
 
-.alert-action:hover {
+/* .alert-action:hover {
   background-color: var(--black-100);
   color: var(--black-400);
-}
+} */
 
 /* usage */
 /*  

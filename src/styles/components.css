@@ -4,6 +4,7 @@
 @import "./typography.css";
 @import "./colors.css";
 @import "../components/avatars.css";
+@import "../components/alerts.css";
 @import "./helpers.css";
 
 body {
