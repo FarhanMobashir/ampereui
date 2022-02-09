@@ -1,0 +1,18 @@
+/* modals */
+.modal-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 35rem;
+  box-shadow: var(--shadow-smooth);
+  border-radius: var(--radius-sm);
+}
+
+.modal-button-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
