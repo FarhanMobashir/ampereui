@@ -127,7 +127,7 @@ body {
   height: 100vh;
   transition: 0.5s;
   z-index: 2000;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   width: 100vw;
