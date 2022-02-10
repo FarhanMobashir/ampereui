@@ -54,6 +54,13 @@
 .toast-text {
   font-size: var(--tx-14);
 }
+.toast-btn {
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  font-weight: var(--tx-medium);
+  align-self: flex-start;
+}
 
 .close-btn {
   height: 100%;
