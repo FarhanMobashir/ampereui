@@ -150,6 +150,22 @@
   cursor: pointer;
 }
 
+.card-img-v {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.card-img-lg {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
 .img-with-icon {
   grid-column: 1/4;
   grid-row: 1/4;
