@@ -1,10 +1,10 @@
 /* images */
-.img {
+.img-res {
   max-width: 100%;
   height: auto;
   object-fit: cover;
 }
 
 .img-round {
-  border-radius: var(--sp-md);
+  border-radius: var(--radius-round);
 }

@@ -39,7 +39,12 @@
   outline: none;
 }
 
+.input-wrapper {
+  width: 100%;
+}
+
 .validation-message {
+  margin: 0;
   font-size: var(--tx-14);
   color: var(--red-400);
   font-weight: var(--tx-medium);
