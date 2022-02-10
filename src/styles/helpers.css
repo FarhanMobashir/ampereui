@@ -17,3 +17,8 @@
   flex-wrap: wrap;
   margin: 1rem 0px;
 }
+
+.center {
+  justify-content: center;
+  align-items: center;
+}

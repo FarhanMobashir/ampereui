@@ -139,10 +139,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 2rem 1rem;
   background-color: var(--black-000);
   width: 100%;
-  height: 100vh;
 }
 
 .drawer-icon {

@@ -6,7 +6,7 @@
   align-items: center;
   gap: 0.5rem;
   text-decoration: none;
-  background-color: var(--black-300);
+  background-color: var(--black-400);
   color: white;
   padding: var(--sp-sm) var(--sp-md);
   border: none;
@@ -61,6 +61,7 @@
 .btn-outline:hover {
   border: none;
   background-color: var(--primary-400);
+  border: 1px solid var(--primary-400);
   transition: calc(var(--transition-fast) * 1s);
   color: white;
 }
@@ -87,6 +88,7 @@
 }
 
 .btn-icon {
+  border: none;
   font-size: var(--tx-32);
   background-color: var(--black-100);
   border-radius: var(--radius-sm);
