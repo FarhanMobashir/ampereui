@@ -1,0 +1,97 @@
+/* toast */
+.toast {
+  width: 24rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--black-500);
+  background-color: var(--black-100);
+  border-radius: var(--radius-sm);
+  padding: var(--sp-sm) var(--sp-md);
+  font-size: var(--tx-16);
+  gap: 1rem;
+  border-left: 6px solid var(--black-600);
+  box-shadow: var(--shadow-smooth);
+}
+
+.toast-success {
+  color: var(--green-600);
+  background-color: var(--green-100);
+  border-left: 6px solid var(--green-600);
+}
+
+.toast-danger {
+  color: var(--red-600);
+  background-color: var(--red-100);
+  border-left: 6px solid var(--red-600);
+}
+
+.toast-info {
+  color: var(--orange-600);
+  background-color: var(--orange-100);
+  border-left: 6px solid var(--orange-600);
+}
+
+.toast-icon {
+  color: inherit;
+  background-color: var(--black-inverted);
+  border-radius: var(--radius-round);
+  font-size: var(--tx-24);
+}
+
+.toast-body {
+  font-size: var(--tx-14);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.toast-title {
+  font-size: var(--tx-18);
+  font-weight: var(--tx-medium);
+}
+
+.toast-text {
+  font-size: var(--tx-14);
+}
+
+.close-btn {
+  height: 100%;
+  border: none;
+  color: inherit;
+  background-color: inherit;
+  align-self: flex-start;
+}
+
+.close-btn i {
+  font-size: var(--tx-20);
+  color: inherit;
+}
+
+.top-right {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 999;
+}
+
+.top-left {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 999;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  z-index: 999;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  z-index: 999;
+}
