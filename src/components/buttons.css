@@ -116,17 +116,10 @@
 }
 
 .fab {
-  width: 8rem;
-  height: 8rem;
-  border: none;
+  /* border: none; */
   border-radius: var(--radius-round);
   background-color: var(--primary-400);
   color: var(--black-inverted);
-  padding: var(--sp-xl);
-  font-size: var(--tx-40);
+  font-size: var(--tx-28);
   box-shadow: 0px 0px 10px var(--black-300);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
 }

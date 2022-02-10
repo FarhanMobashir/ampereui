@@ -1,3 +1,15 @@
+/* pills */
+.pill {
+  font-size: var(--tx-14);
+  background-color: var(--green-100);
+  color: var(--green-500);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-weight: var(--tx-semi-bold);
+  display: flex;
+  align-items: center;
+}
+
 /* cards */
 
 .card-title {
