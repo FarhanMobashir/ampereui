@@ -1,8 +1,6 @@
 @import "./global.css";
 @import "../../text.css";
-@import "./spacing.css";
-@import "./typography.css";
-@import "./colors.css";
+@import "../components/alerts.css";
 @import "../components/avatars.css";
 @import "../components/badges.css";
 @import "../components/buttons.css";
@@ -10,6 +8,9 @@
 @import "../components/images.css";
 @import "../components/input.css";
 @import "../components/toast.css";
+@import "./spacing.css";
+@import "./typography.css";
+@import "./colors.css";
 @import "./helpers.css";
 
 body {
