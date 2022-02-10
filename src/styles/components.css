@@ -139,16 +139,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 1rem;
-  /* position: sticky; */
-  /* top: 0; */
+  padding: 0 1rem;
   background-color: var(--black-000);
   width: 100%;
   height: 100vh;
 }
 
 .drawer-icon {
-  font-size: 4rem;
+  font-size: var(--tx-40);
 }
 
 .component-list {
@@ -215,7 +213,7 @@ body {
 
   #main {
     margin: 1rem 0.5rem;
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
   }
 
   .menu-icon {
