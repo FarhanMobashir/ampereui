@@ -7,7 +7,7 @@
   font-weight: var(--tx-medium);
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-smooth);
-  margin: var(--sp-lg) 0;
+  margin: var(--sp-sm) 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

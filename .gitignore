@@ -4,3 +4,4 @@ dist
 dist-ssr
 *.local
 text.css
+test.html

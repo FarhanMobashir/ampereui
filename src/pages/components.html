@@ -17,13 +17,22 @@
       </div>
       <div class="component-list">
         <!-- ? <h1>Must needed</h1> -->
-        <a href="#" class="component-link-drawer">Avatars</a>
-        <a href="#" class="component-link-drawer">Alerts</a>
-        <a href="#" class="component-link-drawer">Badges</a>
+        <a href="#avatars" class="component-link-drawer">Avatars</a>
+        <a href="#alerts" class="component-link-drawer">Alerts</a>
+        <a href="#badges" class="component-link-drawer">Badges</a>
         <a href="#btn" class="component-link-drawer">Buttons</a>
         <a href="#" class="component-link-drawer">Cards</a>
         <a href="#" class="component-link-drawer">Images</a>
         <a href="#" class="component-link-drawer">Input</a>
+        <hr />
+        <a href="#" class="component-link">Text Utilities</a>
+        <a href="#" class="component-link">Lists</a>
+        <a href="#" class="component-link">Navigation</a>
+        <a href="#btn" class="component-link">Modal</a>
+        <a href="#" class="component-link">Rating</a>
+        <a href="#" class="component-link">Toast</a>
+        <a href="#" class="component-link">Grid</a>
+      </div>
       </div>
     </div>
     <div id="grid-container">
@@ -66,33 +75,125 @@
       </div>
 
       <main id="main">
+        <!-- --------- avatars -------------- -->
         <div id="avatars">
           <h1 class="tx-28 semi-bold mt-16">Avatars</h1>
-          <p class="tx-20 mv-8">Here are the examples of avatars</p>
+          <p class="tx-20 mv-8 medium black-6 lh-md">
+            Here are the examples of avatars with text.
+          </p>
+          <p class="tx-16 black-4 lh-md">
+            You can simply add <code>avatar</code> class to a div and write the
+            text you want on the avatar ,.e.g <code>AZ</code>. We also provide
+            three variants for the avatars namely <code>avatar-sm</code>,
+            <code>avatar-md</code> and <code>avatar-lg</code> for different
+            sizes as per your need.
+          </p>
+          .
+          <p class="tx-16 black-4 lh-md">
+            For the image avatar you can simply add the
+            <code>avatar</code> class on the image tag as hown in the below code
+            snippet. The size variation works with the image avatar too.
+          </p>
           <div class="outline-flex-container">
-            <div class="avatar-text avatar-sm with-badge">MF</div>
-            <img src="https://www.picsum.photos/200" class="avatar" />
-            <div class="avatar-text avatar-md with-badge">MF</div>
-            <img src="https://www.picsum.photos/200" class="avatar avatar-lg" />
+            <div class="avatar-text avatar-sm with-badge">AZ</div>
+            <div class="avatar-text avatar with-badge">AZ</div>
+            <div class="avatar-text avatar-md with-badge">AZ</div>
+            <div class="avatar-text avatar-lg with-badge">AZ</div>
+
+            <img
+              src="https://i.ibb.co/ftMCWW2/portrait-1.jpg"
+              class="avatar avatar-sm"
+            />
+            <img src="https://i.ibb.co/ftMCWW2/portrait-1.jpg" class="avatar" />
+            <img
+              src="https://i.ibb.co/ftMCWW2/portrait-1.jpg"
+              class="avatar avatar-md"
+            />
+            <img
+              src="https://i.ibb.co/ftMCWW2/portrait-1.jpg"
+              class="avatar avatar-lg"
+            />
           </div>
+          <script src="https://gist.github.com/FarhanMobashir/cca3ea6ddc7109bd9308c48c951cb059.js"></script>
         </div>
-        <div class="outline-flex-container column">
-          <div class="alert alert-primary alert">
-            This is a small primary alert
-            <i class="alert-icon uil uil-check"></i>
+        <!-- ------------------- alerts ------------------- -->
+        <div id="alerts">
+          <h1 class="tx-28 semi-bold mt-16">Alerts</h1>
+          <p class="tx-20 mv-8 medium black-6">
+            Here are the examples of alerts.
+          </p>
+          <p class="tx-16 black-4 lh-md">
+            For the alert you can simply add the
+            <code>alert</code> class in the div with icon of your choice as
+            shown in the below code snippet. In the icon you need to add the
+            class <code>alert-icon</code> to make it work.
+          </p>
+          <p class="tx-16 black-4 lh-md">
+            There are four types of alerts , a basic alert with class of
+            <code>alert</code>, <code>alert-primary</code>,
+            <code>alert-warning</code>, <code>alert-info</code>,
+          </p>
+          <p class="tx-16 black-4 lh-md">
+            If you want small alert you can <code>alert-sm</code> class to the
+            alert div and you will be good to go.
+          </p>
+          <p class="tx-16 black-4 lh-md">
+            If you want to make alert with dismiss just add
+            <code>alert-action</code> class to the icon.
+          </p>
+          <div class="outline-container">
+            <div class="alert alert-primary">
+              This is primary alert
+              <i class="alert-icon uil uil-check"></i>
+            </div>
+            <div class="alert alert-warning">
+              This is a warning alert
+              <i class="alert-icon uil uil-exclamation-circle"></i>
+            </div>
+            <div class="alert alert-info">
+              This is an info alert
+              <i class="alert-icon uil uil-shield-exclamation"></i>
+            </div>
+            <div class="alert">
+              This is an basic alert
+              <i class="alert-icon uil uil-times alert-action"></i>
+            </div>
+            <!-- small -->
+            <div class="alert alert-primary alert-sm">
+              This is small primary alert
+              <i class="alert-icon uil uil-check"></i>
+            </div>
+            <div class="alert alert-warning alert-sm">
+              This is a small warning alert
+              <i class="alert-icon uil uil-exclamation-circle"></i>
+            </div>
+            <div class="alert alert-info alert-sm">
+              This is an small info alert
+              <i class="alert-icon uil uil-shield-exclamation"></i>
+            </div>
+            <div class="alert alert-sm">
+              This is an small basic alert
+              <i class="alert-icon uil uil-times alert-action"></i>
+            </div>
           </div>
-          <div class="alert alert-warning alert">
-            This is a small primary alert
-            <i class="alert-icon uil uil-exclamation-circle"></i>
-          </div>
-          <div class="alert alert-info alert">
-            This is a small primary alert
-            <i class="alert-icon uil uil-times alert-action"></i>
-          </div>
+          <script src="https://gist.github.com/FarhanMobashir/3b01474441cc17e3b327247b44bd075d.js"></script>
         </div>
+        <!-- ------------ badges ------------ -->
         <div id="badges">
-          <h1 class="tx-28 semi-bold mt-16">Icon with badges</h1>
-          <p class="tx-20 mv-8">Here are the examples of icon with badges</p>
+          <h1 class="tx-28 semi-bold mt-16">Badges</h1>
+          <p class="tx-20 mv-8 medium black-6">
+            Here are the examples of badges on icon.
+          </p>
+          <p class="tx-16 black-4 lh-md">
+            We also offer badges on icon components where you can either put
+            count on the badges of you can put some icon also in the badges.
+            Take a look below.
+          </p>
+          <p class="tx-16 black-4 lh-md">
+            You can also change the color of the badge by simply adding color
+            and bg color classes of your choice to the badge.
+          </p>
+
           <div class="outline-flex-container">
             <div class="badge-container">
               <i class="badge-icon uil uil-message"></i>
@@ -100,7 +201,7 @@
             </div>
             <div class="badge-container">
               <i class="badge-icon uil uil-envelope"></i>
-              <i class="badge bg-green-2 green-6">7+</i>
+              <i class="badge">7+</i>
             </div>
             <div class="badge-container">
               <i class="badge-icon uil uil-upload"></i>
@@ -108,14 +209,15 @@
             </div>
             <div class="badge-container">
               <i class="badge-icon uil uil-shopping-bag"></i>
-              <i class="badge bg-pink-2 pink-6">9+</i>
+              <i class="badge uil uil-exclamation-circle bg-pink-2 pink-6"></i>
             </div>
             <div class="badge-container">
               <i class="badge-icon uil-bell"></i>
               <i class="badge bg-indigo-2 indigo-6">9+</i>
             </div>
           </div>
-
+          <script src="https://gist.github.com/FarhanMobashir/eba79f4a6c4152f1f8051d72131b1211.js"></script>
+          <!-- --profile with badges ----  -->
           <h1 class="tx-28 semi-bold mt-16">Profile with badges</h1>
           <p class="tx-20 mv-8">Here are the examples of profile with badges</p>
           <div class="outline-flex-container">
@@ -125,24 +227,26 @@
             </div>
             <div class="avatar-badge-container">
               <div class="avatar-text avatar-md with-badge">MF</div>
-              <i class="badge avatar-badge avatar-badge-md bg-green-4"></i>
+              <i class="badge avatar-badge avatar-badge-md active"></i>
             </div>
             <div class="avatar-badge-container">
               <img
-                src="https://www.picsum.photos/200"
+                src="https://i.ibb.co/ftMCWW2/portrait-1.jpg"
                 class="avatar with-badge"
               />
-              <i class="badge avatar-badge bg-black-4"></i>
+              <i class="badge avatar-badge active"></i>
             </div>
             <div class="avatar-badge-container">
               <img
-                src="https://www.picsum.photos/200"
+                src="https://i.ibb.co/ftMCWW2/portrait-1.jpg"
                 class="avatar avatar-sm with-badge"
               />
-              <i class="badge avatar-badge avatar-badge-sm bg-orange-4"></i>
+              <i class="badge avatar-badge avatar-badge-sm offline"></i>
             </div>
           </div>
+          <script src="https://gist.github.com/FarhanMobashir/f4b52ed50c03d04d37c5a443acfeb5fc.js"></script>
         </div>
+        <!-- --------- buttons -------------- -->
         <div id="buttons">
           <h1 class="tx-28 semi-bold mt-16">Buttons</h1>
           <p class="tx-20 mv-8">Here are the examples of buttons</p>
@@ -175,6 +279,7 @@
             </button>
           </div>
         </div>
+        <!-- -------------- cards -------------- -->
         <div id="badges">
           <h1 class="tx-28 semi-bold mt-16">Cards</h1>
           <p class="tx-20 mv-8">
@@ -440,10 +545,12 @@
             </div>
           </div>
         </div>
+        <!-- ----------------- images -------------  -->
         <div class="outline-flex-container">
           <img src="https://picsum.photos/500" alt="" class="img img-round" />
           <img src="https://picsum.photos/200/200" alt="" class="img" />
         </div>
+        <!-- -------------- inputs -------------- -->
         <div class="outline-flex-container">
           <form>
             <label class="label label-required" for="text">Email </label>
@@ -475,6 +582,7 @@
             />
           </form>
         </div>
+        <!-- ----------- text-utilities ----------- -->
         <div class="outline-flex-container column">
           <h1 class="h1">Hello Everyone</h1>
           <h2 class="h2">Hello Everyone</h2>
@@ -483,6 +591,7 @@
           <h5 class="h5">Hello Everyone</h5>
           <h6 class="h6">Hello Everyone</h6>
         </div>
+        <!-- ---------------- modal ---------------  -->
         <div class="outline-flex-container">
           <div class="modal-container">
             <h1 class="h4 black-6">Are you sure ?</h1>
@@ -493,6 +602,7 @@
             </div>
           </div>
         </div>
+        <!-- ------------ toast -------------- -->
         <div class="outline-flex-container">
           <div class="toast">
             <i class="uil uil-heart toast-icon"></i>
@@ -529,6 +639,7 @@
             </button>
           </div>
         </div>
+        <!-- -------------- navigation desktop ----------------  -->
         <div class="header-container">
           <div class="header-icon-and-title">
             <i class="uil uil-bars header-icon hide"></i>

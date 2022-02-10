@@ -106,3 +106,8 @@
 .tx-underline {
   text-decoration: underline;
 }
+
+/* line heights */
+.lh-md {
+  line-height: 3rem;
+}
