@@ -160,7 +160,7 @@
 
 .card-img-lg {
   width: 100%;
-  height: auto;
+  height: 20rem;
   border-radius: 10px 10px 0px 0px;
   cursor: pointer;
   object-fit: cover;
