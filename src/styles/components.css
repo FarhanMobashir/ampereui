@@ -179,6 +179,22 @@ body {
   border-radius: 10px;
 }
 
+/* gist */
+.gist {
+  padding: 1rem;
+}
+
+.gist-file {
+  padding: 0.5rem;
+  background-color: var(--black-100);
+}
+
+.gist-data {
+  padding: 3rem 2rem;
+  height: 25rem;
+  overflow-y: scroll;
+}
+
 @media (max-width: 40rem) {
   html {
     font-size: 55%;
@@ -197,8 +213,8 @@ body {
   }
 
   #main {
-    margin: 0.5rem;
-    padding-bottom: 6rem;
+    margin: 1rem 0.5rem;
+    padding: 6rem 0;
   }
 
   .menu-icon {
