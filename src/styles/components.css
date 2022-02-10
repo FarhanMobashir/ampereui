@@ -106,7 +106,7 @@ body {
   height: calc(100vh - 8rem);
   overflow-y: scroll;
   overflow-x: hidden;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .content {
@@ -140,10 +140,10 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1rem;
-  position: sticky;
-  top: 0;
+  /* position: sticky; */
+  /* top: 0; */
   background-color: var(--black-000);
-  width: 100%;
+  width: 100vh;
 }
 
 .drawer-icon {
@@ -214,7 +214,7 @@ body {
 
   #main {
     margin: 1rem 0.5rem;
-    padding: 6rem 0;
+    padding: 2rem 1rem;
   }
 
   .menu-icon {
