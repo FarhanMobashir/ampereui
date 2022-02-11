@@ -248,15 +248,15 @@ body {
     margin: 0;
   }
 
-  /* #header {
-    position: initial;
-  } */
+  #header {
+    padding: 1rem;
+    box-shadow: 0px 5px 10px var(--black-100);
+  }
 
   #main {
     margin: 1rem 0.5rem;
-    padding: 1rem 1rem 4rem 1rem;
-    height: 80vh;
-    margin-top: 7rem;
+    padding: 10rem 1rem 4rem 1rem;
+    /* height: calc(100vh- 10rem); */
   }
 
   .menu-icon {
