@@ -248,10 +248,15 @@ body {
     margin: 0;
   }
 
+  /* #header {
+    position: initial;
+  } */
+
   #main {
     margin: 1rem 0.5rem;
     padding: 1rem 1rem 4rem 1rem;
-    overflow-y: scroll;
+    height: 80vh;
+    margin-top: 7rem;
   }
 
   .menu-icon {
