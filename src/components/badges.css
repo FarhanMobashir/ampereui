@@ -2,13 +2,13 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  height: 50px;
-  width: 50px;
+  height: 5rem;
+  width: 5rem;
   cursor: pointer;
 }
 
 .badge-icon {
-  font-size: var(--tx-40);
+  font-size: var(--tx-32);
   grid-column: 1/-1;
   color: var(--black-500);
 }
@@ -16,13 +16,13 @@
 .badge {
   background-color: var(--red-500);
   color: var(--red-100);
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
   border-radius: var(--radius-round);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: var(--tx-16);
+  font-size: var(--tx-12);
   font-weight: var(--tx-semi-bold);
   grid-column: 5;
 }
