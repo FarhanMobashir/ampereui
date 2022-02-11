@@ -1,0 +1,42 @@
+/* list */
+.no-bullet-list {
+  list-style-type: none;
+  font-size: var(--tx-16);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 25rem;
+  padding: 1rem 2rem;
+  border: 1px solid var(--black-100);
+}
+
+.no-bullet-list li {
+  padding: var(--sp-sm);
+}
+
+.no-bullet-list li:hover {
+  background-color: var(--black-100);
+  border-radius: var(--radius-sm);
+  font-weight: var(--tx-medium);
+}
+
+.list-title {
+  border-bottom: 1px solid var(--black-100);
+  padding: var(--sp-xs) 0;
+}
+
+.spaced-list {
+  list-style-type: none;
+  font-size: var(--tx-16);
+  display: flex;
+  gap: 0.5rem;
+  width: auto;
+}
+
+.spaced-list li {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--black-100);
+  padding: var(--sp-sm);
+  border-radius: var(--radius-sm);
+}
