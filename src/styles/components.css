@@ -251,6 +251,7 @@ body {
   #main {
     margin: 1rem 0.5rem;
     padding: 4rem 1rem;
+    height: calc(100vh - 9rem);
   }
 
   .menu-icon {
