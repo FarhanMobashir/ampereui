@@ -1,5 +1,5 @@
 @import "./global.css";
-@import "../../text.css";
+/* @import "../../text.css"; */
 @import "../components/alerts.css";
 @import "../components/avatars.css";
 @import "../components/badges.css";
@@ -78,6 +78,20 @@ body {
   transition: 0.5s;
   border-right: 1px solid var(--black-000);
 }
+
+.sidebar::-webkit-scrollbar {
+  width: 1em;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: var(--black-300);
+  border-radius: var(--radius-sm);
+}
+
 .menu-icon {
   display: none;
   font-size: 4rem;
@@ -108,6 +122,19 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   padding: 1.5rem 1rem;
+}
+
+#main::-webkit-scrollbar {
+  width: 1em;
+}
+
+#main::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#main::-webkit-scrollbar-thumb {
+  background-color: var(--black-300);
+  border-radius: var(--radius-sm);
 }
 
 .content {
@@ -189,6 +216,19 @@ body {
   padding: 3rem 2rem;
   max-height: 25rem;
   overflow-y: scroll;
+}
+
+.gist-data::-webkit-scrollbar {
+  width: 1em;
+}
+
+.gist-data::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.gist-data::-webkit-scrollbar-thumb {
+  background-color: var(--black-300);
+  border-radius: var(--radius-sm);
 }
 
 @media (max-width: 40rem) {
