@@ -1,5 +1,5 @@
 @import "./global.css";
-/* @import "../../text.css"; */
+@import "../../text.css";
 @import "../components/alerts.css";
 @import "../components/avatars.css";
 @import "../components/badges.css";
@@ -255,7 +255,7 @@ body {
 
   #main {
     margin: 1rem 0.5rem;
-    padding: 10rem 1rem 4rem 1rem;
+    padding: 7rem 1rem 4rem 1rem;
     /* height: calc(100vh- 10rem); */
   }
 

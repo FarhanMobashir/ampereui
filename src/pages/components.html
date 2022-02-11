@@ -25,13 +25,13 @@
         <a href="#image" class="component-link-drawer">Images</a>
         <a href="#input" class="component-link-drawer">Input</a>
         <hr />
-        <a href="#text-util" class="component-link">Text Utilities</a>
-        <a href="#" class="component-link">Lists</a>
-        <a href="#" class="component-link">Navigation</a>
-        <a href="#modal" class="component-link">Modal</a>
-        <a href="#" class="component-link">Rating</a>
-        <a href="#toast" class="component-link">Toast</a>
-        <a href="#" class="component-link">Grid</a>
+        <a href="#text-util" class="component-link-drawer">Text Utilities</a>
+        <a href="#list" class="component-link-drawer">Lists</a>
+        <a href="#" class="component-link-drawer">Navigation</a>
+        <a href="#modal" class="component-link-drawer">Modal</a>
+        <a href="#" class="component-link-drawer">Rating</a>
+        <a href="#toast" class="component-link-drawer">Toast</a>
+        <a href="#" class="component-link-drawer">Grid</a>
       </div>
       <!-- </div> -->
     </div>
@@ -64,7 +64,7 @@
         <!-- p1 -->
         <hr />
         <a href="#text-util" class="component-link">Text Utilities</a>
-        <a href="#" class="component-link">Lists</a>
+        <a href="#list" class="component-link">Lists</a>
         <a href="#" class="component-link">Navigation</a>
         <a href="#modal" class="component-link">Modal</a>
         <a href="#" class="component-link">Rating</a>
@@ -358,7 +358,7 @@
           </p>
           <div class="component-wrapper center">
             <div class="card-container">
-              <img class="card-img-v" src="https://picsum.photos/1000" alt="" />
+              <img class="card-img-v" src="../assets/console.png" alt="" />
               <div class="content-container">
                 <h2 class="card-title">The world of Turtle</h2>
                 <h2 class="card-subheading">By Discovery</h2>
@@ -772,16 +772,32 @@
         <!-- ----------- Lists ----------- -->
         <div id="list">
           <h1 class="tx-28 semi-bold mt-16">Lists</h1>
-          <p class="tx-20 mv-8 medium black-6">
-            Here are the examples text utilities
+          <p class="tx-20 mv-8 medium black-6">Here are the example of lists</p>
+          <p class="tx-16 black-5 lh-md">
+            We offer three types of list , a basic stacked no bullet list, a no
+            bulleted list with icon which is <code>unicon</code> by default. It
+            also comes with a inline spaced list.
           </p>
           <div class="component-wrapper-column">
-            <ul>
-              <li>Hello ul</li>
-              <li>Hello ul</li>
-              <li>Hello ul</li>
+            <ul class="no-bullet-list">
+              <h1 class="h4 list-title">List title</h1>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+            <ul class="no-bullet-list">
+              <h1 class="h4 list-title">List title</h1>
+              <li><i class="uil uil-envelope"></i> Item 1</li>
+              <li><i class="uil uil-upload"></i> Item 2</li>
+              <li><i class="uil uil-heart"></i> Item 3</li>
+            </ul>
+            <ul class="spaced-list">
+              <li><i class="uil uil-envelope"></i> Item 1</li>
+              <li><i class="uil uil-upload"></i> Item 2</li>
+              <li><i class="uil uil-heart"></i> Item 3</li>
             </ul>
           </div>
+          <script src="https://gist.github.com/FarhanMobashir/1c8187dea4a29946291d7eeb9e5880c5.js"></script>
         </div>
         <!-- ---------------- modal ---------------  -->
         <div id="modal">
@@ -854,43 +870,6 @@
           <script src="https://gist.github.com/FarhanMobashir/a548ac4fd777335b2388c295852e86b6.js"></script>
         </div>
         <!-- -------------- navigation desktop ----------------  -->
-        <!-- <div class="header-container">
-          <div class="header-icon-and-title">
-            <i class="uil uil-bars header-icon hide"></i>
-            <h1 class="header-title">AmpereShop</h1>
-          </div>
-          <div class="header-items-container">
-            <a href="#" class="btn btn-text black-5">Link Button</a>
-            <div class="search-with-icon">
-              <i class="uil uil-search"></i>
-              <input
-                type="text"
-                placeholder="Search here"
-                class="search-input"
-              />
-            </div>
-            <div class="header-icon-container">
-              <div class="badge-container">
-                <i class="badge-icon uil uil-shopping-cart-alt"></i>
-                <i class="badge">3</i>
-              </div>
-              <small class="icon-subtitle">Cart</small>
-            </div>
-            <div class="header-icon-container">
-              <div class="badge-container">
-                <i class="badge-icon uil uil-heart"></i>
-                <i class="badge">3</i>
-              </div>
-              <small class="icon-subtitle">Wishlist</small>
-            </div>
-            <div class="header-icon-container">
-              <div class="badge-container">
-                <i class="badge-icon uil uil-user"></i>
-              </div>
-              <small class="icon-subtitle">Profile</small>
-            </div>
-          </div>
-        </div> -->
       </main>
     </div>
     <script type="module" src="../js/components.js"></script>
