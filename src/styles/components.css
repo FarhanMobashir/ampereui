@@ -219,7 +219,7 @@ body {
 }
 
 .gist-data::-webkit-scrollbar {
-  width: 1em;
+  width: 10px;
 }
 
 .gist-data::-webkit-scrollbar-track {
