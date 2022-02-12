@@ -212,7 +212,7 @@
 .with-text-overlay {
   grid-column: 1/2;
   grid-row: 1/4;
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 .text-overlay {
@@ -221,8 +221,9 @@
   text-align: center;
   align-self: center;
   font-size: var(--tx-32);
-  background-color: var(--black-200);
+  background-color: var(--red-200);
   font-weight: var(--tx-semi-bold);
+  padding: var(--sp-sm);
   color: var(--black-600);
   border-radius: 50px;
   z-index: 2;

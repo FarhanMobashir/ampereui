@@ -68,6 +68,7 @@
   color: inherit;
   background-color: inherit;
   align-self: flex-start;
+  cursor: pointer;
 }
 
 .close-btn i {

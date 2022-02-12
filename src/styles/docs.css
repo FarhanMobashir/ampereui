@@ -1,5 +1,4 @@
-@import "./global.css";
-@import "../../text.css";
+@import "../components/global.css";
 @import "../components/alerts.css";
 @import "../components/avatars.css";
 @import "../components/badges.css";
@@ -13,8 +12,8 @@
 @import "../components/lists.css";
 @import "../components/rating.css";
 @import "../components/typography.css";
-@import "./spacing.css";
-@import "./colors.css";
+@import "../components/spacing.css";
+@import "../components/colors.css";
 @import "./helpers.css";
 
 body {
