@@ -31,7 +31,7 @@
         <a href="#modal" class="component-link-drawer">Modal</a>
         <a href="#rating" class="component-link-drawer">Rating</a>
         <a href="#toast" class="component-link-drawer">Toast</a>
-        <a href="#" class="component-link-drawer">Grid</a>
+        <a href="#grid" class="component-link-drawer">Grid</a>
       </div>
       <!-- </div> -->
     </div>
@@ -69,7 +69,7 @@
         <a href="#modal" class="component-link">Modal</a>
         <a href="#rating" class="component-link">Rating</a>
         <a href="#toast" class="component-link">Toast</a>
-        <a href="#" class="component-link">Grid</a>
+        <a href="#grid" class="component-link">Grid</a>
       </div>
 
       <main id="main">
@@ -800,6 +800,57 @@
           </div>
           <script src="https://gist.github.com/FarhanMobashir/1c8187dea4a29946291d7eeb9e5880c5.js"></script>
         </div>
+        <!-- -------------- navigation desktop ----------------  -->
+        <div id="navigation">
+          <h1 class="tx-28 semi-bold">Navigation</h1>
+          <p class="tx-20 mv-8 medium black-6 lh-md">
+            Here is the example of basic navigation
+          </p>
+          <div class="navigation-container">
+            <div class="upper-container">
+              <div class="logo-and-menu">
+                <i class="drawer-menu-icon uil uil-bars"></i>
+                <h1 class="h4 logo-short">a.</h1>
+                <h1 class="h4 logo">AmpereUI</h1>
+              </div>
+              <div class="navigation-link-container">
+                <a class="navigation-link" href="#">Motors</a>
+                <a class="navigation-link" href="#">Propellor</a>
+                <a class="navigation-link" href="#">Reciever</a>
+                <a class="navigation-link" href="#">Battery</a>
+              </div>
+              <div class="search-container-big">
+                <i class="search-icon uil uil-search"></i>
+                <input
+                  placeholder="Search here..."
+                  class="search-input-big"
+                  type="text"
+                />
+              </div>
+
+              <div class="nav-icon-container">
+                <a href="#">
+                  <div class="badge-container">
+                    <i class="badge-icon uil uil-shopping-cart-alt"></i>
+                    <i class="badge">5</i>
+                  </div>
+                </a>
+                <a href="#">
+                  <i class="badge-icon uil uil-user-circle"></i>
+                </a>
+              </div>
+            </div>
+            <div class="search-container-small">
+              <i class="search-icon uil uil-search"></i>
+              <input
+                placeholder="Search products here..."
+                class="search-input-small"
+                type="text"
+              />
+            </div>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/0d5b3d25b2d01961354035299e0dac6c.js"></script>
+        </div>
         <!-- ---------------- modal ---------------  -->
         <div id="modal">
           <h1 class="tx-28 semi-bold mt-16">Modal</h1>
@@ -815,6 +866,38 @@
             </div>
           </div>
           <script src="https://gist.github.com/FarhanMobashir/eb57a5c736acb72d4f3a13f13a2a853c.js"></script>
+        </div>
+        <!-- -------------- rating ------------- -->
+        <div id="rating">
+          <h1 class="tx-28 semi-bold mt-16">Rating</h1>
+          <p class="tx-20 mv-8 medium black-6">
+            Here is the example of rating component
+          </p>
+          <p class="tx-16 black-5 lh-md">
+            By default the star style is grey. If you want to add the active
+            style add the <code>star-active</code> class to thei tag containing
+            the star icon.
+          </p>
+          <div class="component-wrapper center">
+            <div class="rating-wrapper">
+              <div class="rating-header">
+                <h1 class="h4 tx-center black-6">Rate Us</h1>
+                <p class="tx-14 black-4 tx-center">
+                  Leave your rating for us to make your experience better in the
+                  future
+                </p>
+              </div>
+              <div class="star-container">
+                <i class="star star-active fas fa-star"></i>
+                <i class="star star-active fas fa-star"></i>
+                <i class="star star-active fas fa-star"></i>
+                <i class="star fas fa-star"></i>
+                <i class="star fas fa-star"></i>
+              </div>
+              <button class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/39c55744b1feb3aa4d0de4ce3dcd3389.js"></script>
         </div>
         <!-- ------------ toast -------------- -->
         <div id="toast">
@@ -870,87 +953,60 @@
           </div>
           <script src="https://gist.github.com/FarhanMobashir/a548ac4fd777335b2388c295852e86b6.js"></script>
         </div>
-        <!-- -------------- navigation desktop ----------------  -->
-        <div id="navigation">
-          <h1 class="tx-28 semi-bold">Navigation</h1>
-          <p class="tx-20 mv-8 medium black-6 lh-md">
-            Here is the example of basic navigation
-          </p>
-          <div class="navigation-container">
-            <div class="upper-container">
-              <div class="logo-and-menu">
-                <i class="drawer-menu-icon uil uil-bars"></i>
-                <h1 class="h4 logo-short">a.</h1>
-                <h1 class="h4 logo">AmpereUI</h1>
-              </div>
-              <div class="navigation-link-container">
-                <a class="navigation-link" href="#">Motors</a>
-                <a class="navigation-link" href="#">Propellor</a>
-                <a class="navigation-link" href="#">Reciever</a>
-                <a class="navigation-link" href="#">Battery</a>
-              </div>
-              <div class="search-container-big">
-                <i class="search-icon uil uil-search"></i>
-                <input
-                  placeholder="Search here..."
-                  class="search-input-big"
-                  type="text"
-                />
-              </div>
-
-              <div class="nav-icon-container">
-                <a href="#">
-                  <div class="badge-container">
-                    <i class="badge-icon uil uil-shopping-cart-alt"></i>
-                    <i class="badge">5</i>
-                  </div>
-                </a>
-                <a href="#">
-                  <i class="badge-icon uil uil-user-circle"></i>
-                </a>
-              </div>
-            </div>
-            <div class="search-container-small">
-              <i class="search-icon uil uil-search"></i>
-              <input
-                placeholder="Search products here..."
-                class="search-input-small"
-                type="text"
-              />
-            </div>
-          </div>
-          <script src="https://gist.github.com/FarhanMobashir/0d5b3d25b2d01961354035299e0dac6c.js"></script>
-        </div>
-        <div id="rating">
-          <h1 class="tx-28 semi-bold mt-16">Rating</h1>
+        <!-- ------------- grid system ------------- -->
+        <div id="grid">
+          <h1 class="tx-28 semi-bold mt-16">Grid</h1>
           <p class="tx-20 mv-8 medium black-6">
-            Here is the example of rating component
+            Here is the example of grid system
           </p>
-          <p class="tx-16 black-5 lh-md">
-            By default the star style is grey. If you want to add the active
-            style add the <code>star-active</code> class to thei tag containing
-            the star icon.
+          <p class="tx-16 black-5 lh-md mb-10">
+            We offer a very basic 4 column grid system where your simply give
+            the <code>grid-component</code> class to the parent and you get a 4
+            column grid.
           </p>
-          <div class="component-wrapper center">
-            <div class="rating-wrapper">
-              <div class="rating-header">
-                <h1 class="h4 tx-center black-6">Rate Us</h1>
-                <p class="tx-14 black-4 tx-center">
-                  Leave your rating for us to make your experience better in the
-                  future
-                </p>
-              </div>
-              <div class="star-container">
-                <i class="star star-active fas fa-star"></i>
-                <i class="star star-active fas fa-star"></i>
-                <i class="star star-active fas fa-star"></i>
-                <i class="star fas fa-star"></i>
-                <i class="star fas fa-star"></i>
-              </div>
-              <button class="btn btn-primary">Submit</button>
+          <p class="tx-16 black-5 lh-md mb-10">
+            Now in order to make your children take space according to you, your
+            can add the children with classes like <code>span-2</code> to take
+            space of two children, <code>span-3</code>, for three children and
+            <code>span-4</code> for all the four children.
+          </p>
+          <p class="tx-16 black-5 lh-md mb-10">
+            Below is the example of all the use case possible with our 4 column
+            grid.
+          </p>
+          <!-- grid system -->
+          <div class="outline-container">
+            <div class="grid-component">
+              <div class="grid-item">1</div>
+              <div class="grid-item">2</div>
+              <div class="grid-item">3</div>
+              <div class="grid-item">4</div>
+              <!-- spanning two by two column -->
+              <div class="grid-item span-2">5</div>
+              <div class="grid-item span-2">6</div>
+              <!-- spanning 3 by 2 column -->
+              <div class="grid-item span-3">7</div>
+              <div class="grid-item">8</div>
+              <!-- spanning 4 column -->
+              <div class="grid-item span-4">9</div>
             </div>
           </div>
-          <script src="https://gist.github.com/FarhanMobashir/39c55744b1feb3aa4d0de4ce3dcd3389.js"></script>
+          <script src="https://gist.github.com/FarhanMobashir/167675a30093c8791c7188ba1dc286a8.js"></script>
+          <!-- responsive grid -->
+          <p class="tx-16 black-5 lh-md mb-10">
+            For a responsive 4 column grid add the class
+            <code>grid-component-responsive</code> to the parent and when the
+            screen size become smaller it will become a 2-column grid.
+          </p>
+          <div class="outline-container">
+            <div class="grid-component-responsive">
+              <div class="grid-item">1</div>
+              <div class="grid-item">2</div>
+              <div class="grid-item">3</div>
+              <div class="grid-item">4</div>
+            </div>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/1f15bfd4a1bdd9adec2737db412fdb49.js"></script>
         </div>
       </main>
     </div>
