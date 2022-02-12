@@ -1,0 +1,39 @@
+/* rating */
+.rating-wrapper {
+  padding: var(--sp-md);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-smooth);
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.star-container {
+  display: flex;
+  gap: 1rem;
+  padding: var(--sp-xs) var(--sp-sm);
+  height: 4rem;
+}
+
+.star {
+  font-size: var(--tx-20);
+  cursor: pointer;
+}
+
+.star:hover {
+  color: var(--orange-400);
+  transition: 0.2s;
+}
+
+.star-active {
+  color: var(--orange-400);
+}
