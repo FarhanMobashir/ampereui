@@ -1,0 +1,116 @@
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 0px 5px 10px var(--black-100);
+  padding: var(--sp-sm) var(--sp-md);
+}
+
+.upper-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container-small {
+  display: none;
+}
+
+.logo-and-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-link-container {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation-link {
+  font-size: var(--tx-18);
+  text-decoration: none;
+  color: var(--black-400);
+}
+
+.nav-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-icon-container a {
+  text-decoration: none;
+}
+
+.drawer-menu-icon {
+  font-size: var(--tx-28);
+  display: none;
+}
+
+.logo-short {
+  display: none;
+}
+
+.search-container-big {
+  background-color: var(--black-000);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  padding: var(--sp-xs);
+  width: 40rem;
+  margin-left: auto;
+}
+
+.search-icon {
+  font-size: var(--tx-20);
+  color: var(--black-500);
+}
+
+.search-input-big {
+  border: none;
+  outline: none;
+  color: var(--black-500);
+  background-color: var(--black-000);
+  font-size: var(--tx-20);
+  padding: var(--sp-sm);
+}
+
+/* media query for header */
+@media (max-width: 35rem) {
+  .drawer-menu-icon {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+  .logo-short {
+    display: block;
+  }
+  .search-container-big {
+    display: none;
+  }
+  .search-container-small {
+    display: inline;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--sp-xs);
+    background-color: var(--black-000);
+    border-radius: var(--radius-sm);
+  }
+  .search-input-small {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--black-000);
+  }
+  .navigation-link-container {
+    display: none;
+  }
+}
