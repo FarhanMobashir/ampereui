@@ -1,8 +1,6 @@
 @import "./src/components/global.css";
 @import "./src/components/buttons.css";
-/* @import "./spacing.css";
-@import "./colors.css";
-@import "./helpers.css"; */
+@import "./src/components/spacing.css";
 
 #header {
   display: flex;
@@ -70,7 +68,7 @@
 }
 
 .feature-section {
-  margin: 15rem 10rem 2rem 10rem;
+  padding: 15rem 10rem 2rem 10rem;
 }
 
 .feature {
@@ -121,7 +119,7 @@
   }
   /* feature */
   .feature-section {
-    margin: 8rem 4rem 0rem 4rem;
+    padding: 8rem 4rem 0rem 4rem;
   }
   .feature {
     margin: 4rem 1rem;

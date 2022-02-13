@@ -3,6 +3,7 @@
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0px 0px 5px var(--black-100);
+  margin: 1rem;
 }
 
 .component-wrapper {
@@ -43,4 +44,27 @@
 
 .justify-center {
   justify-content: center;
+}
+
+/* example-box */
+.box {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--tx-18);
+  border-radius: var(--radius-sm);
+  background-color: var(--pink-100);
+}
+
+.spacing-box {
+  height: 6rem;
+  font-size: var(--tx-18);
+  border-radius: var(--radius-sm);
+  background-color: var(--pink-100);
+}
+
+.spacing-box-content {
+  border: 3px solid var(--black-600);
+  height: 100%;
 }

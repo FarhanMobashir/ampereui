@@ -26,6 +26,7 @@
 
 .star {
   font-size: var(--tx-20);
+  color: var(--black-400);
   cursor: pointer;
 }
 

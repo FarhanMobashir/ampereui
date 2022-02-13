@@ -17,9 +17,13 @@
       </div>
       <div class="component-list">
         <!-- getting started guide -->
-        <a href="#avatar" class="component-link">Getting Started</a>
-        <a href="#avatar" class="component-link">Colors</a>
-        <a href="#avatar" class="component-link">Typography</a>
+        <a href="#getting-stated" class="component-link-drawer"
+          >Getting Started</a
+        >
+        <a href="#color" class="component-link-drawer">Colors</a>
+        <a href="#typography" class="component-link-drawer">Typography</a>
+        <a href="#spacing" class="component-link-drawer">Spacing</a>
+
         <!-- ? <h1>Must needed</h1> -->
         <a href="#avatar" class="component-link-drawer">Avatars</a>
         <a href="#alert" class="component-link-drawer">Alerts</a>
@@ -56,10 +60,10 @@
       </div>
       <div class="sidebar">
         <!-- getting started guide -->
-        <a href="#avatar" class="component-link">Getting Started</a>
-        <a href="#avatar" class="component-link">Colors</a>
-        <a href="#avatar" class="component-link">Typography</a>
-        <a href="#avatar" class="component-link">Spacing</a>
+        <a href="#getting-started" class="component-link">Getting Started</a>
+        <a href="#color" class="component-link">Colors</a>
+        <a href="#typography" class="component-link">Typography</a>
+        <a href="#spacing" class="component-link">Spacing</a>
         <!-- <h1>Must needed</h1> -->
         <a href="#avatar" class="component-link">Avatars</a>
         <a href="#alert" class="component-link">Alerts</a>
@@ -79,13 +83,297 @@
       </div>
 
       <main id="main">
+        <!-- -------------- getting started ----------- -->
+        <div id="getting-started">
+          <h1 class="tx-28 semi-bold">Getting Started</h1>
+          <p class="tx-20 mv-8 medium black-6 mb-16">
+            With AmpereUI you can kickstart your next project in just seconds
+          </p>
+          <p class="tx-16 black-5">
+            Just you need to add this link tag to you html and you will be good
+            to go.
+          </p>
+          <script src="https://gist.github.com/FarhanMobashir/1b9c5d2a9e3c60ae531bca8e341ab9b2.js"></script>
+          <p class="tx-16 black-5 mb-20">
+            AmpereUI uses <code>unicon</code> icon for most of the places and
+            for some place it use <code>fontawesome icon</code>. You can however
+            use any of these at any places as per your convinience.
+          </p>
+          <p class="tx-16 black-5 mb-20">
+            AmpereUI sets the base font size to <code>10px</code> and hence
+            <code>1rem = 10px</code>. This is helpful in making the typography
+            and spacing responsive. So we would suggest you to keep your style
+            sheet also in terms of 10px as the base size.
+          </p>
+        </div>
+        <!-- ----------- colors ----------- -->
+        <div id="color">
+          <h1 class="tx-28 semi-bold">Colors</h1>
+          <p class="tx-20 mv-8 medium black-6 mb-16">
+            AmpereUI comes with 10 different colors
+          </p>
+          <p class="tx-16 black-5 mb-10">
+            We provide you with 10 different colors namely <code>black</code>,
+            <code>pink</code>, <code>red</code>, <code>orange</code>,
+            <code>yellow</code>, <code>green</code>, <code>teal</code>,
+            <code>blue</code>, <code>indigo</code>, <code>purple</code>. Each
+            color comes with 6 shade namely <code>red-1</code>,
+            <code>red-2</code> and so on.
+          </p>
+          <p class="tx-16 black-5 mb-10">
+            For background-color you can add the classes like
+            <code>bg-red-1</code>, <code>bg-red-2</code> and so on for all the
+            different colors.
+          </p>
+          <p class="tx-16 black-5 mb-10">
+            For font-color you can add the classes like <code>red-1</code>,
+            <code>red-2</code> and so on for all the different colors.
+          </p>
+          <p class="tx-20 mv-8 medium black-6 mb-16">
+            Example of different color text using helper class
+          </p>
+          <div class="component-wrapper-column">
+            <h4 class="h4 red-4">Red Text</h4>
+            <h4 class="h4 blue-4">Blue Text</h4>
+            <h4 class="h4 orange-4">Orange Text</h4>
+            <h4 class="h4 purple-4">Purple Text</h4>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/e16429e20724c3be9d6dd2808f2a0980.js"></script>
+          <p class="tx-20 mv-8 medium black-6 mb-16">
+            Example of same color text with different shade using helper class
+          </p>
+          <div class="component-wrapper-column">
+            <h4 class="h4 indigo-1">Indigo - 1</h4>
+            <h4 class="h4 indigo-2">Indigo - 2</h4>
+            <h4 class="h4 indigo-3">Indigo - 3</h4>
+            <h4 class="h4 indigo-4">Indigo - 4</h4>
+            <h4 class="h4 indigo-5">Indigo - 5</h4>
+            <h4 class="h4 indigo-6">Indigo - 6</h4>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/5dd599929238a55c86a556697dcb7c0c.js"></script>
+          <p class="tx-20 mv-8 medium black-6 mb-16">
+            Example of different background color using helper class
+          </p>
+          <div class="outline-container">
+            <div class="grid-component">
+              <div class="box bg-black-1">black</div>
+              <div class="box bg-pink-1">pink</div>
+              <div class="box bg-red-1">red</div>
+              <div class="box bg-yellow-1">yellow</div>
+              <div class="box bg-orange-1">orange</div>
+              <div class="box bg-blue-1">blue</div>
+              <div class="box bg-purple-1">purple</div>
+              <div class="box bg-indigo-1">indigo</div>
+              <div class="box bg-teal-1">teal</div>
+              <div class="box bg-green-1">green</div>
+            </div>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/c532ba8f88755cef3c7bbd9fcc887128.js"></script>
+          <p class="tx-20 mv-8 medium black-6 mb-16">
+            Example of red color with all 6 shades
+          </p>
+          <div class="outline-container">
+            <div class="grid-component">
+              <div class="box bg-red-1"></div>
+              <div class="box bg-red-2"></div>
+              <div class="box bg-red-3"></div>
+              <div class="box bg-red-4"></div>
+              <div class="box bg-red-5"></div>
+              <div class="box bg-red-6"></div>
+            </div>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/3b072b6e833d393cc3dc13b0d8fe7dba.js"></script>
+          <p class="tx-20 mv-8 medium black-6 mb-16">
+            Example of red purple with all 6 shades
+          </p>
+          <div class="outline-container">
+            <div class="grid-component">
+              <div class="box bg-purple-1"></div>
+              <div class="box bg-purple-2"></div>
+              <div class="box bg-purple-3"></div>
+              <div class="box bg-purple-4"></div>
+              <div class="box bg-purple-5"></div>
+              <div class="box bg-purple-6"></div>
+            </div>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/1ce40abbb233d228bb5a7cc345abd4b2.js"></script>
+        </div>
+        <!-- ----------- typography ----------- -->
+        <div id="typography">
+          <h1 class="tx-28 semi-bold">Typography</h1>
+          <p class="tx-20 mv-8 medium black-6 mb-16">
+            Let's talk a little bit about typography
+          </p>
+          <p class="tx-16 black-5 mb-10">
+            Typography play a very important role in making your site look
+            aesthetic and giving the taste of your product. AmpereUI gives a all
+            the necessary helper classes needed for typography including
+            <code>alignemnt</code>, <code>font-sizes</code>,
+            <code>font-weight</code>, <code>text-decoration</code> and so on.
+          </p>
+          <!-- Headings -->
+          <p class="tx-20 mv-8 medium black-6 mb-16">Headings</p>
+          <div class="component-wrapper-column">
+            <h1 class="h1">Hello World</h1>
+            <h2 class="h2">Hello World</h2>
+            <h3 class="h3">Hello World</h3>
+            <h4 class="h4">Hello World</h4>
+            <h5 class="h5">Hello World</h5>
+            <h6 class="h6">Hello World</h6>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/8b8461f54547a65583328db646491ef0.js"></script>
+          <!-- font-weights -->
+          <p class="tx-20 mv-8 medium black-6 mb-16">Font Weights</p>
+          <div class="component-wrapper-column">
+            <h4 class="h4 black">Black</h4>
+            <h4 class="h4 bold">Bold</h4>
+            <h4 class="h4 semi-bold">Semi Bold</h4>
+            <h4 class="h4 medium">Medium</h4>
+            <h4 class="h4 regular">Regular</h4>
+            <h4 class="h4 light">Light</h4>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/0e61df9c19b55d287b70636eca99a382.js"></script>
+          <!-- text-alignment -->
+          <p class="tx-20 mv-8 medium black-6 mb-16">Text Alignments</p>
+          <div class="component-wrapper-column">
+            <h3 class="h3 tx-center">Left Text</h3>
+            <p class="tx-16 tx-left">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate libero autem excepturi adipisci nemo rem provident
+              facere officia tenetur eaque?
+            </p>
+            <h3 class="h3 tx-center">Center Text</h3>
+            <p class="tx-16 tx-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate libero autem excepturi adipisci nemo rem provident
+              facere officia tenetur eaque?
+            </p>
+            <h3 class="h3 tx-center">Right Text</h3>
+            <p class="tx-16 tx-right">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate libero autem excepturi adipisci nemo rem provident
+              facere officia tenetur eaque?
+            </p>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/bafdf304a88a4285feec5e9a3962883f.js"></script>
+          <!-- font-style -->
+          <p class="tx-20 mv-8 medium black-6 mb-16">Font Style</p>
+          <div class="component-wrapper-column">
+            <h4 class="h4 tx-capitalize">capitalize</h4>
+            <h4 class="h4 tx-lowercase">LOWERCASE</h4>
+            <h4 class="h4 tx-uppercase">uppercase</h4>
+            <h4 class="h4 tx-strike">Strike Text</h4>
+            <h4 class="h4 tx-underline">Underline</h4>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/68bae8f037a58d95772ec5391b6bbd3b.js"></script>
+          <!-- text-sizes -->
+          <p class="tx-20 mv-8 medium black-6 mb-16">Text Sizes</p>
+          <div class="component-wrapper-column">
+            <h4 class="h4">12px text</h4>
+            <p class="tx-12">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis nisi distinctio obcaecati magnam, a laboriosam
+              dignissimos vel repellendus ex nihil.
+            </p>
+            <h4 class="h4">14px text</h4>
+            <p class="tx-14">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis nisi distinctio obcaecati magnam, a laboriosam
+              dignissimos vel repellendus ex nihil.
+            </p>
+            <h4 class="h4">16px text</h4>
+            <p class="tx-16">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis nisi distinctio obcaecati magnam, a laboriosam
+              dignissimos vel repellendus ex nihil.
+            </p>
+            <h4 class="h4">18px text</h4>
+            <p class="tx-18">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis nisi distinctio obcaecati magnam, a laboriosam
+              dignissimos vel repellendus ex nihil.
+            </p>
+            <h4 class="h4">20px text</h4>
+            <p class="tx-20">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis nisi distinctio obcaecati magnam, a laboriosam
+              dignissimos vel repellendus ex nihil.
+            </p>
+            <h4 class="h4">24px text</h4>
+            <p class="tx-24">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Perspiciatis nisi distinctio obcaecati magnam, a laboriosam
+              dignissimos vel repellendus ex nihil.
+            </p>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/a8acc7fd3c3340b890be2bdf0ac0b5c1.js"></script>
+        </div>
+        <!-- -------------- spacing ----------- -->
+        <div id="spacing">
+          <h1 class="tx-28 semi-bold">Spacing</h1>
+          <p class="tx-20 mv-8 medium black-6 mb-16">
+            Now it's time to take a look on spacing classes provided by the
+            library.
+          </p>
+          <!-- margin -->
+          <p class="tx-24 mv-8 medium black-6 mb-16">About Margin</p>
+          <p class="tx-16 mv-8 medium black-6 mb-16">
+            We provide all the necessary classes for <code>padding</code> and
+            <code>margin</code>.
+          </p>
+          <p class="tx-16 mv-8 medium black-6 mb-16">
+            The convention for <code>margin</code> on all side is
+            <code>m-auto</code>, <code>m-0</code>, <code>m-8</code>,
+            <code>m-10</code>, <code>m-16</code>, <code>m-20</code> and
+            <code>m-24</code>.
+          </p>
+          <p class="tx-16 mv-8 medium black-6 mb-16">
+            The convention for <code>margin-left</code> on all side is
+            <code>ml-auto</code>, <code>ml-0</code>, <code>ml-8</code>,
+            <code>ml-10</code>, <code>ml-16</code>, <code>ml-20</code> and
+            <code>ml-24</code>.
+          </p>
+          <p class="tx-16 mv-8 medium black-6 mb-16">
+            For <code>margin-right</code>, the convetion is
+            <code>mr-auto</code> and similar.
+          </p>
+          <p class="tx-16 mv-8 medium black-6 mb-16">
+            For <code>margin-bottom</code>, the convetion is
+            <code>mb-auto</code> and similar.
+          </p>
+          <p class="tx-16 mv-8 medium black-6 mb-16">
+            For <code>margin-top</code>, the convetion is
+            <code>mt-auto</code> and similar.
+          </p>
+          <p class="tx-16 mv-8 medium black-6 mb-16">
+            For <code>margin-vertical</code>, the convetion is
+            <code>mv-auto</code> and similar.
+          </p>
+          <p class="tx-16 mv-8 medium black-6 mb-16">
+            For <code>margin-horizontal</code>, the convetion is
+            <code>mh-auto</code> and similar.
+          </p>
+          <div class="outline-cotainer">
+            <div class="grid-component">
+              <div class="spacing-box span-2">
+                <h6 class="h6 spacing-box-content ml-10 mr-16">
+                  Margin - Demo
+                </h6>
+              </div>
+              <div class="spacing-box span-2">
+                <h6 class="h6 spacing-box-content pl-16 pt-24">Padding Demo</h6>
+              </div>
+            </div>
+          </div>
+          <script src="https://gist.github.com/FarhanMobashir/1418c6df7cd1fb735496a0fcccb79b1c.js"></script>
+        </div>
         <!-- --------- avatars -------------- -->
         <div id="avatar">
           <h1 class="tx-28 semi-bold">Avatars</h1>
-          <p class="tx-20 mv-8 medium black-6 lh-md">
+          <p class="tx-20 mv-8 medium black-6">
             Here are the examples of avatars with text.
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             You can simply add <code>avatar</code> class to a div and write the
             text you want on the avatar ,.e.g <code>AZ</code>. We also provide
             three variants for the avatars namely <code>avatar-sm</code>,
@@ -93,7 +381,7 @@
             sizes as per your need.
           </p>
 
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             For the image avatar you can simply add the
             <code>avatar</code> class on the image tag as hown in the below code
             snippet. The size variation works with the image avatar too.
@@ -126,22 +414,22 @@
           <p class="tx-20 mv-8 medium black-6">
             Here are the examples of alerts.
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             For the alert you can simply add the
             <code>alert</code> class in the div with icon of your choice as
             shown in the below code snippet. In the icon you need to add the
             class <code>alert-icon</code> to make it work.
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             There are four types of alerts , a basic alert with class of
             <code>alert</code>, <code>alert-primary</code>,
             <code>alert-warning</code>, <code>alert-info</code>,
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             If you want small alert you can <code>alert-sm</code> class to the
             alert div and you will be good to go.
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             If you want to make alert with dismiss just add
             <code>alert-action</code> class to the icon.
           </p>
@@ -188,12 +476,12 @@
           <p class="tx-20 mv-8 medium black-6">
             Here are the examples of badges on icon.
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             We also offer badges on icon components where you can either put
             count on the badges of you can put some icon also in the badges.
             Take a look below.
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             You can also change the color of the badge by simply adding color
             and bg color classes of your choice to the badge.
           </p>
@@ -256,13 +544,13 @@
           <p class="tx-20 mv-8 medium black-6">
             Here are the examples of Buttons
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             We offer a large variety of button for every use cases. AmpereUI
             comes with solid button, outline button, text-button, button with
             icon, icon only button and disabled style. It also has three
             variation of sizes from small, medium and large.
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             It also has floating action buttons which are fully cinfigurable and
             you can change the color and icon as per your use case.
           </p>
@@ -699,7 +987,7 @@
           <p class="tx-20 mv-8 medium black-6">
             Here are the examples responsive image
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             For the responsive image just add <code>img-res</code> class to any
             image tag. FOr round image add <code>img-round</code> in the image
             tag.
@@ -780,7 +1068,7 @@
         <div id="list">
           <h1 class="tx-28 semi-bold mt-16">Lists</h1>
           <p class="tx-20 mv-8 medium black-6">Here are the example of lists</p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             We offer three types of list , a basic stacked no bullet list, a no
             bulleted list with icon which is <code>unicon</code> by default. It
             also comes with a inline spaced list.
@@ -809,7 +1097,7 @@
         <!-- -------------- navigation desktop ----------------  -->
         <div id="navigation">
           <h1 class="tx-28 semi-bold">Navigation</h1>
-          <p class="tx-20 mv-8 medium black-6 lh-md">
+          <p class="tx-20 mv-8 medium black-6">
             Here is the example of basic navigation
           </p>
           <div class="navigation-container">
@@ -879,7 +1167,7 @@
           <p class="tx-20 mv-8 medium black-6">
             Here is the example of rating component
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             By default the star style is grey. If you want to add the active
             style add the <code>star-active</code> class to thei tag containing
             the star icon.
@@ -909,13 +1197,13 @@
         <div id="toast">
           <h1 class="tx-28 semi-bold mt-16">Toast</h1>
           <p class="tx-20 mv-8 medium black-6">Here is the example of toast</p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             Toast comes with without action button as well as with action
             button. It has four variation basic toast, success toast, warning
             toast, and info toast and all are fullt configurable where you can
             use any icon of your own choice and add or remove action button.
           </p>
-          <p class="tx-16 black-5 lh-md">
+          <p class="tx-16 black-5">
             For positioning of the toast you can add the following classes
             namely <code>top-left</code>, <code>top-right</code>,
             <code>bottom-right</code>, <code>bottom-right</code>.
@@ -965,18 +1253,18 @@
           <p class="tx-20 mv-8 medium black-6">
             Here is the example of grid system
           </p>
-          <p class="tx-16 black-5 lh-md mb-10">
+          <p class="tx-16 black-5 mb-10">
             We offer a very basic 4 column grid system where your simply give
             the <code>grid-component</code> class to the parent and you get a 4
             column grid.
           </p>
-          <p class="tx-16 black-5 lh-md mb-10">
+          <p class="tx-16 black-5 mb-10">
             Now in order to make your children take space according to you, your
             can add the children with classes like <code>span-2</code> to take
             space of two children, <code>span-3</code>, for three children and
             <code>span-4</code> for all the four children.
           </p>
-          <p class="tx-16 black-5 lh-md mb-10">
+          <p class="tx-16 black-5 mb-10">
             Below is the example of all the use case possible with our 4 column
             grid.
           </p>
@@ -999,7 +1287,7 @@
           </div>
           <script src="https://gist.github.com/FarhanMobashir/167675a30093c8791c7188ba1dc286a8.js"></script>
           <!-- responsive grid -->
-          <p class="tx-16 black-5 lh-md mb-10">
+          <p class="tx-16 black-5 mb-10">
             For a responsive 4 column grid add the class
             <code>grid-component-responsive</code> to the parent and when the
             screen size become smaller it will become a 2-column grid.

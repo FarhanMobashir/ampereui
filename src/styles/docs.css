@@ -1,4 +1,5 @@
 @import "../components/global.css";
+@import "./helpers.css";
 @import "../components/alerts.css";
 @import "../components/avatars.css";
 @import "../components/badges.css";
@@ -11,10 +12,10 @@
 @import "../components/navigation.css";
 @import "../components/lists.css";
 @import "../components/rating.css";
+@import "../components/grid.css";
 @import "../components/typography.css";
 @import "../components/spacing.css";
 @import "../components/colors.css";
-@import "./helpers.css";
 
 body {
   margin: 0;
@@ -111,8 +112,8 @@ body {
 }
 
 .component-link:hover {
-  background-color: var(--primary-100);
-  color: var(--primary-600);
+  background-color: var(--black-100);
+  color: var(--black-600);
   text-decoration: none;
   font-weight: var(--tx-medium);
   transition: 0.4s;
@@ -207,6 +208,7 @@ body {
 /* gist */
 .gist {
   padding: 1rem;
+  margin: 1rem;
 }
 
 .gist-file {
@@ -233,6 +235,28 @@ body {
   border-radius: var(--radius-sm);
 }
 
+/* grid-item */
+
+.grid-item {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--tx-18);
+  border-radius: var(--radius-sm);
+  background-color: var(--pink-100);
+}
+
+.grid-item:nth-child(2n + 1) {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--tx-18);
+  border-radius: var(--radius-sm);
+  background-color: var(--black-200);
+}
+
 @media (max-width: 40rem) {
   html {
     font-size: 55%;
@@ -252,13 +276,12 @@ body {
 
   #header {
     padding: 1rem;
-    box-shadow: 0px 5px 10px var(--black-100);
+    box-shadow: 0px 2px 2px var(--black-100);
   }
 
   #main {
     margin: 1rem 0.5rem;
     padding: 7rem 1rem 4rem 1rem;
-    /* height: calc(100vh- 10rem); */
   }
 
   .menu-icon {

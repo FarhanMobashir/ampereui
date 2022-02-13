@@ -33,6 +33,7 @@
 }
 
 .btn-md {
+  width: 18rem;
   font-size: var(--tx-18);
   padding: 1rem 2rem;
 }
@@ -44,8 +45,9 @@
 }
 
 .btn-sm {
+  width: 14rem;
   font-size: var(--tx-12);
-  padding: 0.8rem 1.6rem;
+  padding: 0.8rem 1rem;
 }
 
 .btn-primary {
