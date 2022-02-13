@@ -55,6 +55,7 @@
   font-size: var(--tx-14);
 }
 .toast-btn {
+  cursor: pointer;
   border: none;
   background-color: inherit;
   color: inherit;
