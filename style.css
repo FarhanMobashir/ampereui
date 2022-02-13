@@ -74,7 +74,8 @@
 .feature {
   display: flex;
   justify-content: space-between;
-  margin: 5rem 0rem;
+  align-items: center;
+  margin: 10rem 0rem;
 }
 
 .feature-content {
