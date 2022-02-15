@@ -1,7 +1,7 @@
 /* buttons */
 
 .btn {
-  width: 16rem;
+  max-width: 18rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,19 +33,19 @@
 }
 
 .btn-md {
-  width: 18rem;
+  max-width: 20rem;
   font-size: var(--tx-18);
   padding: 1rem 2rem;
 }
 
 .btn-lg {
-  width: 20rem;
+  max-width: 22rem;
   font-size: var(--tx-20);
   padding: 1.5rem 2.5rem;
 }
 
 .btn-sm {
-  width: 14rem;
+  max-width: 14rem;
   font-size: var(--tx-12);
   padding: 0.8rem 1rem;
 }
