@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .span-2 {
@@ -22,14 +22,16 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .grid-component-stacked {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 @media (max-width: 600px) {
