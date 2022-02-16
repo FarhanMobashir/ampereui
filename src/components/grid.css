@@ -32,11 +32,11 @@
   gap: 1rem;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 600px) {
   .grid-component-responsive {
     grid-template-columns: repeat(2, 1fr);
   }
   .grid-component-stacked {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
