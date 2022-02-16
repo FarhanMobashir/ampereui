@@ -44,3 +44,71 @@
   color: var(--red-400);
   font-weight: var(--tx-medium);
 }
+
+/* new addition of radio, checkbox and range slide */
+
+/* form */
+.form-group {
+  width: 100%;
+}
+
+/* inputs */
+.slide-container {
+  width: 100%; /* Width of the outside container */
+}
+.slider {
+  width: 100%;
+}
+
+.form-group-heading {
+  font-size: var(--tx-20);
+  color: var(--black-600);
+}
+
+/* radio */
+
+.radio-checkbox-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.radio-checkbox-label {
+  font-size: var(--tx-18);
+  font-weight: var(--tx-regular);
+  color: var(--black-600);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 0.5rem 0;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: var(--radius-round);
+  background-color: var(--black-200);
+}
+
+input[type="radio"]:checked {
+  -webkit-appearance: none;
+  transition: 0.2s;
+  border: 0.5rem solid var(--primary-400);
+  background-color: var(--black-inverted);
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--black-200);
+}
+
+input[type="checkbox"]:checked {
+  -webkit-appearance: none;
+  transition: 0.2s;
+  background-color: var(--primary-400);
+}
