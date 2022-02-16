@@ -1,9 +1,9 @@
+@import "./src/components/global.css";
 @import "./src/components/alerts.css";
 @import "./src/components/avatars.css";
 @import "./src/components/badges.css";
 @import "./src/components/buttons.css";
 @import "./src/components/cards.css";
-@import "./src/components/global.css";
 @import "./src/components/grid.css";
 @import "./src/components/images.css";
 @import "./src/components/input.css";
