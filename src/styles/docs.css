@@ -1,5 +1,5 @@
 @import "../components/global.css";
-/* @import "../../text.css"; */
+@import "../../text.css";
 @import "./helpers.css";
 @import "../components/alerts.css";
 @import "../components/avatars.css";
