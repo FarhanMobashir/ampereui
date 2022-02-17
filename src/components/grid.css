@@ -3,6 +3,8 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
   gap: 0.5rem;
 }
 
@@ -22,7 +24,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   gap: 0.5rem;
 }
@@ -31,6 +33,8 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
   gap: 0.5rem;
 }
 
