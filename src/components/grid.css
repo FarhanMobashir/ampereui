@@ -37,11 +37,35 @@
   align-items: center;
 }
 
+.grid-item-center {
+  align-self: center;
+  justify-self: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+.gap-2 {
+  gap: 2rem;
+}
+.gap-3 {
+  gap: 3rem;
+}
+
 @media (max-width: 600px) {
   .grid-component-responsive {
     grid-template-columns: repeat(2, 1fr);
   }
   .grid-component-stacked {
     grid-template-columns: 1fr;
+  }
+  .gap-m-1 {
+    gap: 2rem;
+  }
+  .gap-m-2 {
+    gap: 4rem;
+  }
+  .gap-m-3 {
+    gap: 6rem;
   }
 }
