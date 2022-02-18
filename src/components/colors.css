@@ -1,4 +1,12 @@
 /* * font-color */
+/* white */
+.white-0 {
+  color: white;
+}
+
+.bg-white-0 {
+  background-color: white;
+}
 
 /* black */
 .black-0 {
