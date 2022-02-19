@@ -18,6 +18,7 @@
 @import "../components/typography.css";
 @import "../components/spacing.css";
 @import "../components/colors.css";
+@import "../components/sizing.css";
 
 body {
   margin: 0;

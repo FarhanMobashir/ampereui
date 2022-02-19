@@ -579,7 +579,7 @@
 }
 
 /* color variants */
-/* .red {
+.red {
   background-color: var(--red-100);
   color: var(--red-600);
 }
@@ -611,7 +611,7 @@
   color: var(--yellow-600);
 }
 
-.black {
+.grey {
   background-color: var(--black-100);
   color: var(--black-600);
-} */
+}

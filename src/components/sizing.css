@@ -121,7 +121,7 @@
 .max-w-200 {
   max-width: 20rem;
 }
-0 .max-w-30 {
+.max-w-30 {
   max-width: 30rem;
 }
 
@@ -148,39 +148,39 @@
   max-width: 100rem;
 }
 
-/* height % */
+/* width % */
 
 .wp-10 {
-  height: 10%;
+  width: 10%;
 }
 .wp-20 {
-  height: 20%;
+  width: 20%;
 }
 .wp-30 {
   height: 30%;
 }
 
 .wp-40 {
-  height: 40%;
+  width: 40%;
 }
 .wp-50 {
-  height: 50%;
+  width: 50%;
 }
 .wp-60 {
-  height: 60%;
+  width: 60%;
 }
 .wp-70 {
-  height: 70%;
+  width: 70%;
 }
 .wp-80 {
-  height: 80%;
+  width: 80%;
 }
 
 .wp-90 {
-  height: 90%;
+  width: 90%;
 }
 .wp-100 {
-  height: 100%;
+  width: 100%;
 }
 
 /* --------------- height ------------------- */
