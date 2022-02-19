@@ -75,7 +75,7 @@
   outline: none;
   color: var(--black-500);
   background-color: var(--black-000);
-  font-size: var(--tx-20);
+  font-size: var(--tx-16);
   padding: var(--sp-sm);
 }
 
