@@ -229,3 +229,101 @@
   z-index: 2;
   margin: 0px 10px;
 }
+
+/* --------- small product card ------------ */
+.card-container-small {
+  width: 18.5rem;
+  box-shadow: 0px 0px 5px var(--black-200);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container-small {
+  padding: var(--sp-xs) var(--sp-sm);
+}
+.card-title-small {
+  font-size: var(--tx-16);
+  color: var(--black-600);
+  font-weight: var(--tx-semi-bold);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-subtitle-small {
+  font-size: var(--tx-12);
+  color: var(--black-500);
+  font-weight: var(--tx-medium);
+}
+
+.card-icon-small {
+  font-size: var(--tx-20);
+  border-radius: var(--radius-round);
+}
+
+.price-text-small {
+  font-size: var(--tx-16);
+  font-weight: var(--tx-semi-bold);
+  color: var(--black-600);
+}
+.cutout-price-small {
+  font-size: var(--tx-14);
+  font-weight: var(--tx-medium);
+  color: var(--black-300);
+  text-decoration: line-through;
+}
+
+.rating-text-small {
+  font-size: var(--tx-16);
+  font-weight: var(--tx-semi-bold);
+  color: var(--black-500);
+}
+.pill-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: var(--sp-sm);
+}
+
+/* pills */
+.pill {
+  font-size: var(--tx-14);
+  background-color: var(--green-100);
+  color: var(--green-500);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-weight: var(--tx-semi-bold);
+  display: flex;
+  align-items: center;
+}
+
+.pill-sm {
+  padding: 0rem 0.2rem;
+  font-size: 1rem;
+}
+
+.qty-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: var(--sp-sm);
+}
+
+.qty-btn {
+  border: none;
+  font-size: var(--tx-16);
+  padding: 0.5rem;
+  background-color: var(--primary-400);
+  color: var(--black-inverted);
+  border-radius: var(--radius-sm);
+}
+
+.qty-display {
+  padding: var(--sp-xs) var(--sp-md);
+  font-size: var(--tx-18);
+  font-weight: var(--tx-semi-bold);
+  color: var(--black-400);
+  border: 1px solid var(--black-100);
+  border-radius: var(--radius-sm);
+}
