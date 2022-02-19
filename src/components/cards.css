@@ -10,6 +10,11 @@
   align-items: center;
 }
 
+.pill-sm {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
 /* cards */
 
 .card-title {
@@ -286,23 +291,6 @@
   padding-bottom: var(--sp-sm);
 }
 
-/* pills */
-.pill {
-  font-size: var(--tx-14);
-  background-color: var(--green-100);
-  color: var(--green-500);
-  padding: 0.5rem 1rem;
-  border-radius: 50px;
-  font-weight: var(--tx-semi-bold);
-  display: flex;
-  align-items: center;
-}
-
-.pill-sm {
-  padding: 0rem 0.2rem;
-  font-size: 1rem;
-}
-
 .qty-container {
   display: flex;
   align-items: center;
@@ -317,6 +305,7 @@
   background-color: var(--primary-400);
   color: var(--black-inverted);
   border-radius: var(--radius-sm);
+  cursor: pointer;
 }
 
 .qty-display {
