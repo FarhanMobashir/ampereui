@@ -56,6 +56,7 @@
 }
 .logo {
   cursor: pointer;
+  text-decoration: none;
 }
 
 .search-container-big {
@@ -94,6 +95,7 @@
   .logo-short {
     display: block;
     cursor: pointer;
+    text-decoration: none;
   }
   .search-container-big {
     display: none;
