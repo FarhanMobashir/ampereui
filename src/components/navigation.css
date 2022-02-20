@@ -54,6 +54,9 @@
 .logo-short {
   display: none;
 }
+.logo {
+  cursor: pointer;
+}
 
 .search-container-big {
   background-color: var(--black-000);
@@ -90,6 +93,7 @@
   }
   .logo-short {
     display: block;
+    cursor: pointer;
   }
   .search-container-big {
     display: none;
