@@ -33,13 +33,15 @@
 .navigation-link {
   font-size: var(--tx-18);
   text-decoration: none;
-  color: var(--black-400);
+  color: var(--black-600);
+  font-weight: var(--tx-medium);
 }
 
 .nav-icon-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .nav-icon-container a {
@@ -47,7 +49,7 @@
 }
 
 .drawer-menu-icon {
-  font-size: var(--tx-28);
+  font-size: var(--tx-40);
   display: none;
 }
 
@@ -96,6 +98,7 @@
     display: block;
     cursor: pointer;
     text-decoration: none;
+    margin-left: 1rem;
   }
   .search-container-big {
     display: none;
@@ -106,7 +109,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    padding: var(--sp-xs);
+    padding: var(--sp-sm);
     background-color: var(--black-000);
     border-radius: var(--radius-sm);
   }
